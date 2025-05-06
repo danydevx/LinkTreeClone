@@ -1,0 +1,27 @@
+---
+import WidgetButtonSocial from '@modules/app/widgets/buttons/WidgetButtonSocial.astro';
+
+const { widget } = Astro.props;
+const widgets = widget.links;
+const hasItemsLinks = Array.isArray(widgets) && widgets.length > 0;
+
+
+---
+<section class="app--widget app--widget-contact-links"> 
+ 	<div class="app--widget-container">
+		{hasItemsLinks ? (
+	      widgets.map((widget) => (
+	        <div class="block my-3">
+	           <WidgetButtonSocial link={widget} />
+	        </div>
+	      ))
+	    ) : (
+	      <p class="text-white">No se encontraron widgets</p>
+	    )}
+	</div>
+</section>
+
+<style is:global>
+.app--widget-contact-links{  }
+.app--widget-contact-links .app--widget-container { }
+</style>

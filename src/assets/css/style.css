@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=New+Amsterdam&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('./helpers.css');
+
+ 
+:root {
+	--fn-title: 'Montserrat',sans-serif;
+	--fn-text: 'Montserrat',sans-serif;
+	--fn-button: 'Montserrat',sans-serif;
+	--fn-hero: 'Montserrat',sans-serif;
+	--fn-special: 'Montserrat',sans-serif;
+	--fs-1: 2.2rem;
+	--fs-2: 2rem;
+	--fs-3: 1.8rem;
+	--fs-4: 1.6rem;
+	--fs-5: 1.4rem;
+	--fs-6: 1.2rem;
+
+	--fs-lg-1: 5rem;
+	--fs-lg-2: 4.5rem;
+	--fs-lg-3: 4rem;
+	--fs-lg-4: 3.5rem;
+	--fs-lg-5: 3rem;
+	--fs-lg-6: 2.5rem;
+	--fs-buttons: 1rem;
+
+	--bg-color1: #254F19;
+
+
+	--clr-1 : #F3F3F1;
+	--clr-2 : #0089D7;
+	--clr-3 : #58A9E4;
+	--clr-4 : #0C0F10;
+	--clr-5 : rgba(14, 33, 44, 0.8);
+	--clr-6 : #EDA400;
+}
+	
+	.clr-1{ color:var(--clr-1); }
+	.clr-2{ color:var(--clr-2); }
+	.clr-3{ color:var(--clr-3); }
+	.clr-4{ color:var(--clr-4); }
+	.clr-5{ color:var(--clr-5); }
+	.clr-6{ color:var(--clr-6); }
+
+	.fs-1 {font-size: var(--fs-1)}
+	.fs-2 {font-size: var(--fs-2)}
+	.fs-3 {font-size: var(--fs-3)}
+	.fs-4 {font-size: var(--fs-4)}
+	.fs-5 {font-size: var(--fs-5)}
+	.fs-6 {font-size: var(--fs-6)}
+
+	.fs-lg-1 {font-size: var(--fs-lg-1)}
+	.fs-lg-2 {font-size: var(--fs-lg-2)}
+	.fs-lg-3 {font-size: var(--fs-lg-3)}
+	.fs-lg-4 {font-size: var(--fs-lg-4)}
+	.fs-lg-5 {font-size: var(--fs-lg-5)}
+	.fs-lg-6 {font-size: var(--fs-lg-6)}
+
+
+	.block{ display: block; }
+	.inline-block{ display: inline-block; }
+	
+
+	.fn-special{
+		font-family: var(--fn-special);
+	}
+
+
+	.gradient-1 {
+		background: rgb(14,33,44);
+		background: linear-gradient(180deg, rgba(14,33,44,1) 0%, rgba(255,255,255,1) 100%, rgba(14,33,44,1) 100%);
+	}
+
+	.gradient-text {
+	 
+	  background: linear-gradient(180deg, #ffffff, #CCCCCC);  
+	  -webkit-background-clip: text;
+	  -webkit-text-fill-color: transparent;
+	  background-clip: text;
+	  color: transparent;
+	  display: inline-block;
+	  text-shadow: 0 4px 6px rgba(255, 255, 255, 0.5); 
+	}
+
+
+
+		body{
+			background-color:#FFD800 ;
+			 
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			margin: 0px;
+			padding: 0px;
+			color: white;
+
+		}
+
+	.logoApp{
+		background-image: url(../assets/images/logoApp.png);
+		background-size: contain;
+		background-repeat: no-repeat;
+		display: inline-block;
+		width: 200px;
+		height: 200px;
+		 
+	}
+	main.page-main{
+		 overflow: auto;
+		 width: 100%;
+		 margin: 0px;
+		 padding: 0px;
+		color: white;
+	}
+
+	.page-title{
+			font-weight: bold;
+			color: #000;
+			margin: 0px 0 2rem 0;
+			color: #FFF;
+			text-shadow: 3px 3px 3px rgba(0,0,0,.50);
+	 }
+
+	 .footer{
+	 	width: 100%;
+	 	margin: 1rem 0;
+	 }
+	 .footer p{
+	 	
+	 	text-align: center;
+	 	font-weight: bold;
+	 }
+	.footer  a.copy{
+	 	color: #FFF!important;
+	 	text-shadow: 2px 2px 2px rgba(0,0,0,.50);
+	 	display: block;
+	 	margin: auto;
+	 	max-width: 120px;
+	 	font-family: var(--fn-text);
+	 	font-size: 0.9rem;
+	 	background: rgba(0,0,0,0.5);
+	 	text-align: center;
+	 	font-weight: bold;
+	 	border-radius: 0.5rem;
+	 	
+	 }
+
+main.main{
+	 overflow: auto;
+	 width: 100%;
+	 margin: 0px;
+	 padding: 0px;
+	color: white;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: var(--fn-title);
+}
+
+h1.title,h2.title,h3.title,h4.title,h5.title,h6.title {
+ 
+		color: white;
+}
+
+a{
+	text-decoration: none;
+}
+
+h1{  }
+
+p,ul,ol,span {
+	font-family: var(--fn-text);
+}
+
+a.button,button, input[type="submit"], input[type="button"]{
+	font-family: var(--fn-text);
+}
+
+.section{
+	 display: block;
+ 	 width: 100%;
+}
+
+.sec__title{
+		font-size: 2rem;
+		 
+}
+
+ .button{
+ 	display: inline-block;
+ 	border: none;
+ 	padding: 1rem;
+ 	cursor:pointer;
+ 	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 50px;  
+	padding: 0 20px;  
+	border: none; 
+	 
+	cursor: pointer;
+	text-align: center;
+	font-size: var(--fs-buttons);
+	background: transparent;
+ }
+
+ .button-lg{
+ 	padding-top: 1.5rem;
+ 	padding-bottom: 1.5rem;
+ }
+
+ .button-rounded{
+ 	border-radius: 25px;
+ }
+
+ .button-outline{
+ 		  	border: 3px solid #FFF;
+ }
+ .button-1 {
+  background: #EDA400;
+  color: #FFF;
+  font-family: 'Game of Thrones';
+  
+}
+ 
+
+ .button-1:hover {
+	background: #B28113; 
+	color: #FFF;
+ 
+}
+
+ .button-2 {
+	 
+  color: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;  
+  padding: 0 20px;  
+  border: none;  
+  border-radius: 5px;  
+  cursor: pointer;
+  text-align: center;
+	 
+}
+
+ .button-2:hover {
+	background: #0E3C5C; 
+	color: #FFF;
+
+ 
+}
+
+
+ .button-login {
+  background: #EDA400;
+  color: #000;
+ 
+  background: var(--clr-1);
+  
+}
+ 
+
+ .button-login:hover {
+	background: #B28113; 
+	color: #FFF;
+ 
+}
+
+
+ .button-register {
+  color: #FFF;
+}
+ 
+
+ .button-register:hover {
+	background: #B28113; 
+	color: #FFF;
+ 
+}
+
+
+@media (max-width: 768px) {
+  :root {
+    --fs-lg-1: 3rem;  
+    --fs-lg-2: 2.75rem;
+    --fs-lg-3: 2.5rem;
+    --fs-lg-4: 2.25rem;
+    --fs-lg-5: 2rem;
+    --fs-lg-6: 1.75rem;
+    --fs-buttons: 0.875rem;  
+  }
+}
+
+ 

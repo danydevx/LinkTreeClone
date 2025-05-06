@@ -1,0 +1,45 @@
+---
+import WidgetButtonShareLink from '@modules/app/widgets/buttons/WidgetButtonShareLink.astro';
+import ButtonsShare from '@components/ui/buttons/ButtonsShare.astro'
+import WidgetButtonsRegister from '@modules/app/widgets/buttons/WidgetButtonsRegister.astro';
+
+
+const { widget } = Astro.props;
+ 
+ 
+
+const embed = widget.embed;
+const link = widget.link;
+ 
+---
+<section class="app--widget app--widget-spotify">
+   <div class="spotify-container">
+   <iframe
+    style="border-radius:12px"
+    src={embed}
+    width="100%"
+    height="352"
+    allowfullscreen
+    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+    loading="lazy"
+  ></iframe>
+
+</div>
+
+<ButtonsShare url={widget.link} text={widget.message} />
+<WidgetButtonsRegister  />
+</section>
+ 
+<style is:global>
+.app--widget-spotify{  }
+.app--widget-spotify .app--widget-container { 
+  height: 400px;  
+  overflow-y: auto;
+  scroll-behavior: smooth;  
+  padding: 1rem;
+  color: #FFF;
+   
+}
+
+  
+</style>

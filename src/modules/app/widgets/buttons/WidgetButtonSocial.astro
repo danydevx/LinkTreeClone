@@ -1,0 +1,62 @@
+---
+const { link} = Astro.props;
+const urlLink = link.value+'/'+link.username;
+---
+
+<a href={urlLink} class="widget-button-social">
+  	<span class="avatar">
+  		<img src="holder.js/50x50" alt="" class="image">
+  	</span>
+  	<span class="text">
+  		{link.name}
+  	</span>
+  	<span class="icon">
+  		  <iconify-icon icon="weui:arrow-filled" class="iconify"></iconify-icon>
+  	</span>
+</a>
+
+<style>
+ .widget-button-social {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+    background: var(--clr-5);
+    color: white;
+    border-radius: 32px;
+    text-decoration: none; 
+    line-height: 32px;
+    min-height: 32px;
+}
+
+.widget-button-social:hover {
+  background: var(--clr-3);
+}
+
+.widget-button-social .avatar {
+  flex-shrink: 0;  
+  margin-right: 10px; 
+  padding:0.1rem 1rem;
+}
+
+.widget-button-social .image {
+  width: 50px;  
+  height: 50px;  
+  border-radius: 50%;  
+  object-fit: cover;  
+}
+
+.widget-button-social   .text {
+  flex: 1;  
+  text-align: center; 
+  font-size: var(--fs-6);
+}
+
+.widget-button-social  .icon {
+  flex-shrink: 0;  
+  margin-left: 10px;  
+  font-size: 2rem!important;
+  margin:0 1rem;
+}
+
+
+</style>

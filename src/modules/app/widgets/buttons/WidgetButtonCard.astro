@@ -1,0 +1,64 @@
+---
+const { widget } = Astro.props;
+const title = widget.title || "";
+const link = widget.link || "";
+const icon = widget.icon || "";
+const stylesButtonBackground = widget.image || 'rgba(0,0,0,.50)';
+---
+ 
+<div class="app--button button-type-card" @click="open = true">
+  <div class="button-left">
+    <span class="icon"><iconify-icon icon={icon}></iconify-icon></span>
+  </div>
+  <div class="button-center">
+    <span class="button-text"> &nbsp; {title} </span>
+  </div>
+  <div class="button-right">
+    <button class="button-dots" @click="open = true">
+      <iconify-icon icon="mage:dots"></iconify-icon>
+    </button>
+  </div>
+</div>
+
+<style is:global define:vars={{ stylesButtonBackground }}>
+  .app--button.button-type-card {  
+   border-radius: 0.5rem;
+   min-height: 200px; 
+   background: var(--stylesButtonBackground); 
+   background-size: cover; 
+   background-position: center center;
+   align-items: end;   
+    margin-bottom: 1rem!important;
+   width: 100%;
+
+ }
+  .app--button.button-type-card  .button-left{
+    background-color: rbga(0,0,0,0.40);
+  }
+  .app--button.button-type-card  .button-left .icon{
+      font-size: 1.5rem;
+      display: inline-block;
+      padding:0rem 1rem;
+      font-weight: bolder;
+      box-shadow: 2px 2px 2px rgba(0,0,0,0.5)
+
+   }
+ .app--button.button-type-card:hover{
+  opacity: 0.8;
+  
+ }
+  .app--button.button-type-card  .button-left { 
+    padding:1rem;
+    grid-column: span 6;  
+   }
+  .app--button.button-type-card  .button-center {  
+    display: none;
+
+    }
+  .app--button.button-type-card  .button-right { 
+    grid-column: span 6;  
+    padding: 0.5rem;  }
+  .app--button.button-type-card  .button-text {   }
+  .app--button.button-type-card  .button-dots {  }
+  .app--button.button-type-card  .button-dots:hover { }
+</style>

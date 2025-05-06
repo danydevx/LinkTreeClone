@@ -1,0 +1,273 @@
+:root {
+  /* Variables de colores */
+  --button-bg: #1dbf73;
+  --button-border: #1dbf73;
+  --button-color: #ffffff;
+  --button-hover-bg: #17a966;
+  --button-hover-border: #00371E;
+  --button-hover-color: #ffffff;
+
+  /* Variables de sombras */
+  --soft-shadow: rgba(0, 0, 0, 0.2);
+  --hard-shadow: rgba(0, 0, 0, 1);
+
+  /* Variables de tamaño */
+  --button-padding: 10px 20px;
+  --button-radius: 5px;
+  --button-radius-rounded: 20px;
+  --button-radius-circular: 3rem;
+
+  /* Variables de tipografía */
+  --button-font-size: 1rem;
+  --button-font-weight: bold;
+  --button-font-family: 'Montserrat',sans-serif;
+}
+
+.app--button {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 10px;
+  width: 100%;
+  margin: 1rem 0;
+  position: relative;
+  font-size: var(--button-font-size);
+  font-family: var(--button-font-family);
+  cursor: pointer;
+  text-decoration: none;
+  padding:0.3rem 0;
+}
+
+.app--button:hover {
+
+}
+
+
+.app--button .button-left {
+  grid-column: span 1;
+  justify-self: start;
+}
+
+.app--button .button-left img {
+  padding: 0;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  display: block;
+  margin: 0.2rem 1rem;
+}
+
+.app--button .button-center {
+  grid-column: span 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app--button .button-right {
+  grid-column: span 1;
+  justify-self: end;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app--button .button-text {
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: #FFF;
+  font-family: var(--button-font-family);
+}
+
+.app--button .button-dots {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: var(--fs-3);
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+  color: #FFF;
+  margin-top: 6px;
+}
+
+.app--button .button-dots:hover {
+  color: #ccc;
+}
+
+ 
+.app--button-base {
+  background-color: transparent;
+  color: white!important;
+  border: 2px solid white!important;
+}
+
+.app--button-base:hover {
+  background-color: rgba(0,0,0,1);
+  color: white!important;
+  border: 2px solid white!important;
+}
+
+.app--button-square {
+  background-color: var(--button-bg);
+  color: var(--button-color);
+  border: 2px solid var(--button-border);
+}
+
+.app--button-fill,
+.app--button-fill-rounded,
+.app--button-fill-circular {
+  background-color: var(--button-bg);
+  color: var(--button-color);
+  border: 1px solid var(--button-border);
+}
+
+.app--button-fill {
+  border-radius: var(--button-radius);
+}
+
+.app--button-fill-rounded {
+  border-radius: var(--button-radius-rounded);
+}
+
+.app--button-fill-circular {
+  border-radius: var(--button-radius-circular);
+}
+
+ 
+.app--button-outline,
+.app--button-outline-rounded,
+.app--button-outline-circular {
+  background-color: transparent;
+  color: var(--button-bg);
+  border: 2px solid var(--button-border);
+}
+
+.app--button-outline-rounded {
+  border-radius: var(--button-radius-rounded);
+}
+
+.app--button-outline-circular {
+  border-radius: var(--button-radius-circular);
+}
+
+ 
+.app--button-soft-shadow,
+.app--button-soft-shadow-rounded,
+.app--button-soft-shadow-circular {
+  box-shadow: 0px 4px 8px var(--soft-shadow);
+}
+
+.app--button-soft-shadow-rounded {
+  border-radius: var(--button-radius-rounded);
+}
+
+.app--button-soft-shadow-circular {
+  border-radius: var(--button-radius-circular);
+}
+
+.app--button-hard-shadow,
+.app--button-hard-shadow-rounded,
+.app--button-hard-shadow-circular {
+    box-shadow: 8px 8px 0 var(--hard-shadow);
+}
+
+.app--button-hard-shadow-rounded {
+  border-size:2rem;
+  border-radius: var(--button-radius-rounded);
+}
+
+.app--button-hard-shadow-circular {
+  border-radius: var(--button-radius-circular);
+}
+
+ 
+.app--button-shadow-1 {
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.app--button-shadow-2 {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.app--button-shadow-3 {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.app--button-shadow-4 {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.app--button-shadow-5 {
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px;
+}
+
+.app--button-shadow-6 {
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.app--button-shadow-7 {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+}
+
+ .app--button-special-1 {
+   
+  background-color: var(--button-bg);
+  color: var(--button-color);
+  text-align: center;
+  text-decoration: none;
+  border: 0;
+  outline: 0;
+   font-size: var(--button-font-size);
+  transform: skew(-21deg);
+  /* Un-skew the text */
+}
+ 
+
+/* Estilo 1 */
+
+
+ 
+ 
+
+
+.app--button-soft-shadow {
+   
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.5)!important;
+  transition: background 0.3s, transform 0.0s, box-shadow 0.0s;
+}
+
+.app--button-soft-shadow:hover {
+   
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5)!important;
+  transform: translate(2px, 2px)!important;
+}
+
+
+.app--button-hard-shadow{
+  box-shadow: 6px 6px 0 rgba(0, 0, 0, 1)!important;
+  transition: background 0.3s, transform 0.0s, box-shadow 0.0s;
+}
+
+.app--button-hard-shadow:hover {
+   
+  box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.5)!important;
+  transform: translate(2px, 2px)!important;
+}
+
+.app--button-hover-zoom{
+   transform: scale(1.03);
+}
+
+.app--button-square{
+   border-radius: 0rem;
+}
+.app--button-circle{
+   border-radius: 2.5rem;
+}
+
+.app--button-rounded{
+   border-radius: 0.5rem;
+}
+
+.app--button-outline{
+   background: transparent!important;
+}

@@ -1,0 +1,10 @@
+---
+const { signupUrl, signinUrl } = Astro.props;
+---
+<section class="section section-buttons-login">
+ 
+<div class="buttons-login-container"> 
+  <a href={signupUrl} class="button button-register  button-rounded button-outline my-2">Registrarse</a>
+  <a href={signinUrl} class="button button-login button-rounded my-2">Iniciar sesión</a>
+</div>
+</section>

@@ -1,0 +1,59 @@
+---
+const { item } = Astro.props;
+const title = item.title || "";
+const link = item.link || "";
+
+---
+
+<div class="button-type-1">
+  <div class="button-link">
+    <a href={link}  target="_blank" class="button-text">{title}</a>
+    <button class="button-dots" @click="open = true">
+      <iconify-icon icon="mage:dots"></iconify-icon>
+    </button>
+  </div>
+</div>
+
+<style is:global>
+  .button-type-1 {
+    width: 100%;
+    margin: 1rem 0;
+    position: relative;
+  }
+
+  .button-type-1 .button-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    min-height: 50px;
+    width: 100%;
+    background: red; /* Cambia el color o elimina si no lo necesitas */
+  }
+
+  .button-type-1 .button-text {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-decoration: none;
+    z-index: 2;
+    font-size: var(--fs-4);
+  }
+
+  .button-type-1 .button-dots {
+    position: absolute;
+     
+    right: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: var(--fs-3);
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+    z-index: 2;
+  }
+
+  .button-type-1 .button-dots:hover {
+    color: #ccc;
+  }
+</style>

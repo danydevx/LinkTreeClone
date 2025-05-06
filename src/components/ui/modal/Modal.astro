@@ -1,0 +1,161 @@
+---
+import AppSocialLinks from '@modules/app/AppSocialLinks.astro';
+import AppContactLinks from '@modules/app/AppContactLinks.astro';
+import AppGallery from '@modules/app/AppGallery.astro';
+import AppSpotify from '@modules/app/AppSpotify.astro';
+import AppYoutube from '@modules/app/AppYoutube.astro';
+import ButtonLink from '@components/ui/buttons/ButtonLink.astro';
+import ButtonCard from '@components/ui/buttons/ButtonCard.astro';
+const { user, item } = Astro.props;
+ 
+
+const  backgroundModal = user.styles.backgroundModal || '#FFFFFF';
+---
+
+<div x-data="{ open: false }">
+ 
+{item.type === 1 && (
+  <ButtonLink item={item} user={user} />
+)}
+{item.type === 2 && (
+  <ButtonCard item={item} user={user} />
+)}
+  <div 
+    x-show="open" 
+    class="modal-overlay"
+    @click="open = false"
+  >
+    <div 
+      class="modal-dialog"
+      @click.stop
+    >
+      <div class="modal-content">
+        <div class="modal-header">
+          <p>{item.title}</p> 
+          <button class="modal-close" @click="open = false">&times;</button>
+        </div>
+        <div class="modal-body">
+          <p>{item.message}</p>
+          <div class="block w-100 my-1">
+            {item.name === 'social' && (
+              <AppSocialLinks item={item} />
+            )}
+            {item.name === 'contact' && (
+              <AppContactLinks item={item} />
+            )}
+            {item.name === 'gallery' && (
+              <AppGallery item={item} />
+            )}
+            {item.name === 'spotify' && (
+              <AppSpotify item={item} />
+            )}
+            {item.name === 'youtube' && (
+              <AppYoutube item={item} />
+            )}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style is:global define:vars={{  backgroundModal }}>
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1050;
+  }
+
+  .modal-dialog {
+    position: relative;
+    width: 90%;
+    max-width: 600px;
+    margin: 1.75rem auto;
+    pointer-events: none;
+  }
+
+  .modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: var(-- backgroundModal);
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.3rem;
+    outline: 0;
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+  }
+
+  .modal-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-top: 1rem;
+    border-bottom: 1px solid #dee2e6;
+    border-top-left-radius: calc(0.3rem - 1px);
+    border-top-right-radius: calc(0.3rem - 1px);
+  }
+
+  .modal-header p {
+    margin: 0;
+    font-size: 1rem;
+    color: white;
+  }
+
+  .modal-close {
+    padding: 0.5rem 1rem;
+    border: none;
+    background: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #FFF;
+  }
+
+  .modal-body {
+    position: relative;
+    flex: 1 1 auto;
+    padding: 1rem;
+    font-size: 1rem;
+    color: #495057;
+  }
+
+  .modal-body p { 
+    color: #FFF;
+  }
+
+  .modal-footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0.75rem;
+    border-top: 1px solid #dee2e6;
+    border-bottom-right-radius: calc(0.3rem - 1px);
+    border-bottom-left-radius: calc(0.3rem - 1px);
+  }
+
+  .modal-footer button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    transition: background-color 0.15s ease-in-out;
+  }
+
+  .modal-footer button:hover {
+    background-color: #0056b3;
+  }
+</style>

@@ -1,0 +1,202 @@
+---
+import WidgetSocialLinks from '@modules/app/widgets/WidgetSocialLinks.astro';
+import WidgetContactLinks from '@modules/app/widgets/WidgetContactLinks.astro';
+import WidgetGallery from '@modules/app/widgets/WidgetGallery.astro';
+import WidgetSpotify from '@modules/app/widgets/WidgetSpotify.astro';
+import WidgetPost from '@modules/app/widgets/WidgetPost.astro';
+import WidgetYoutube from '@modules/app/widgets/WidgetYoutube.astro';
+import WidgetShare from '@modules/app/widgets/WidgetShare.astro';
+
+import WidgetButtonLink from '@modules/app/widgets/buttons/WidgetButtonLink.astro';
+import WidgetButtonCard from '@modules/app/widgets/buttons/WidgetButtonCard.astro';
+const { user, widget } = Astro.props;
+ 
+const styles = user.styles;
+const stylesBackgroundModal = user.styles.backgroundModal || '';
+ 
+---
+
+<div class="app--widget-modal" x-data="{ open: false }" x-init="$watch('open', value => {
+    if(value) {
+        document.body.classList.add('modal-open');
+    } else {
+        document.body.classList.remove('modal-open');
+    }
+})">
+
+{widget.type === 1 && (
+  <WidgetButtonLink widget={widget} styles={user.styles} />
+)}
+{widget.type === 2 && (
+  <WidgetButtonCard widget={widget} styles={user} />
+)}
+  <div 
+    x-show="open" 
+    class="widget-modal-overlay"
+    @click="open = false"
+  >
+    <div 
+      class="widget-modal-dialog"
+      @click.stop
+    >
+      <div class="widget-modal-content">
+        <div class="widget-modal-header">
+         <p>{widget.title}</p>
+          <button class="widget-modal-close" @click="open = false">&times;</button>
+        </div>
+        <div class="widget-modal-body">
+          
+           
+            {widget.name === 'share' && (
+              <WidgetShare widget={widget} />
+            )}
+            {widget.name === 'social' && (
+              <WidgetSocialLinks widget={widget} />
+            )}
+            {widget.name === 'contact' && (
+              <WidgetContactLinks widget={widget} />
+            )}
+            {widget.name === 'gallery' && (
+              <WidgetGallery widget={widget} />
+            )}
+            {widget.name === 'spotify' && (
+              <WidgetSpotify widget={widget} />
+            )}
+             {widget.name === 'post' && (
+              <WidgetPost widget={widget} />
+            )}
+            {widget.name === 'youtube' && (
+              <WidgetYoutube widget={widget} />
+            )}
+         
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style is:global define:vars={{ stylesBackgroundModal}}>
+.app--widget-modal .widget-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: flex-start;  
+    justify-content: center;
+    z-index: 1050;
+    padding-top: 2rem;  
+}
+.app--widget-modal .modal-open {
+    overflow: hidden;
+}
+
+
+.app--widget-modal .widget-modal-dialog {
+    position: relative;
+    width: 90%;
+    max-width: 700px;
+    margin: 0 auto; 
+    pointer-events: none;
+    max-height: 90vh;  
+    display: flex;
+    flex-direction: column;
+}
+ .app--widget-modal .widget-modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: var(--stylesBackgroundModal);
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.3rem;
+    outline: 0;
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    padding: 1rem 0rem;
+    overflow-y: auto;  
+    max-height: 100%; 
+}
+
+.app--widget-modal .widget-modal-content::-webkit-scrollbar {
+  width: 8px;
+}
+
+.app--widget-modal .widget-modal-content::-webkit-scrollbar-thumb {
+  background-color: #444; /* Color gris oscuro para el pulgar del scrollbar */
+  border-radius: 4px;
+}
+
+.app--widget-modal .widget-modal-content::-webkit-scrollbar-track {
+  background-color: #222; /* Color negro para el fondo del scrollbar */
+}
+  .app--widget-modal .widget-modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding-top: 0rem;
+    border-bottom: 1px solid #dee2e6;
+    border-top-left-radius: calc(0.3rem - 1px);
+    border-top-right-radius: calc(0.3rem - 1px);
+
+}
+
+.app--widget-modal .widget-modal-header p {
+  margin:0 1rem;
+  font-size: 1rem;
+  color: white;
+  font-weight: bold; 
+  text-transform: uppercase;
+  text-align: left; 
+}
+
+.app--widget-modal .widget-modal-close {
+  margin-left: auto; 
+  padding: 0rem 1rem;
+  border: none;
+  background: none;
+  font-size: 2.5rem;
+  cursor: pointer;
+  color: #FFF;
+}
+  .app--widget-modal .widget-modal-body {
+    position: relative;
+    flex: 1 1 auto;
+    padding: 1rem;
+    font-size: 1rem;
+    color: #495057;
+  }
+
+  .app--widget-modal .widget-modal-body p { 
+    color: #FFF;
+  }
+
+  .app--widget-modal .widget-modal-footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-widgets: center;
+    justify-content: flex-end;
+    padding: 0.75rem;
+    border-top: 1px solid #dee2e6;
+    border-bottom-right-radius: calc(0.3rem - 1px);
+    border-bottom-left-radius: calc(0.3rem - 1px);
+  }
+
+  .app--widget-modal .widget-modal-footer button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    transition: background-color 0.15s ease-in-out;
+  }
+
+  .app--widget-modal .widget-modal-footer button:hover {
+    background-color: #0056b3;
+  }
+</style>

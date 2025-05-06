@@ -1,0 +1,41 @@
+---
+import WidgetButtonsShareVertical from '@modules/app/widgets/buttons/WidgetButtonsShareVertical.astro';
+import WidgetButtonsRegister from '@modules/app/widgets/buttons/WidgetButtonsRegister.astro';
+
+const { widget } = Astro.props;
+---
+
+<section class="widget widget-share">
+  <div class="widget-container">
+    <p class="widget-title">{widget.title}</p>
+    <WidgetButtonsShareVertical 
+      title={widget.title} 
+      message={widget.message} 
+      url={widget.link} 
+    />
+  </div>
+  <div class="widget-footer">
+    <WidgetButtonsRegister />
+  </div>
+</section>
+
+<style is:global>
+.widget-share {
+   
+}
+
+.widget-container {
+   
+}
+
+.widget-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.widget-footer {
+  margin-top: 1rem;
+  
+}
+</style>

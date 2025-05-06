@@ -1,0 +1,75 @@
+---
+const { link } = Astro.props;
+---
+
+<a class="app--button-type-copy" >
+  <div class="button-left">
+    <span class="icon">
+      <iconify-icon icon="ph:linktree-logo-fill"></iconify-icon>
+    </span>
+  </div>
+  <div class="button-center">
+    <span class="button-text">Copiar</span>
+  </div>
+  <div class="button-right">
+    <button class="button-dots" onClick={(event) => copyUrl(event, 'adsd')}>
+      <iconify-icon icon="mage:dots"></iconify-icon>
+    </button>
+  </div>
+</a>
+
+<style is:global>
+  .app--button-type-copy {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 10px;
+    width: 100%;
+    margin: 1rem 0;
+    position: relative;
+    font-size: var(--button-font-size);
+    font-family: var(--button-font-family);
+    cursor: pointer;
+    text-decoration: none;
+    padding:0.3rem 0;
+     border-radius: 0px; border: 2px solid #FFF; padding: 0rem; 
+   }
+  .app--button-type-copy .button-left {
+    grid-column: span 1;
+    justify-self: start; 
+  }
+  .app--button-type-copy .button-left .icon { 
+    color: #FFF; 
+    font-size: 3rem; 
+  }
+  .app--button-type-copy .button-center { 
+    grid-column: span 10;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+  .app--button-type-copy .button-right {
+    grid-column: span 1;
+    justify-self: end;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .app--button-type-copy .button-text { 
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #FFF;
+    font-family: var(--button-font-family); 
+  }
+  .app--button-type-copy .button-dots {  
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: var(--fs-3);
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+    color: #FFF;
+    margin-top: 6px;
+    z-index: 2;
+  }
+  .app--button-type-copy .button-dots:hover {color: #ccc;}
+</style>
+
+ 

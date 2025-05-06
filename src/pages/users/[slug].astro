@@ -1,0 +1,54 @@
+--- 
+ 
+import Layout from '@layouts/Layout.astro';
+import { getUserBySlug } from '@api/users.js';  
+import UserCardProfile from '@modules/users/components/UserCardProfile.astro'
+const { slug } = Astro.params;
+const user = getUserBySlug(slug);
+console.log(user)
+
+ 
+if (!user) {
+   throw new Error('No se encontro el usuario'); 
+}
+
+ 
+const styleBackgroundImage = user ? 'url(' + (user.styles.backgroundImage || '') + ')' : '';
+const styleBackgroundBody = user ? (user.styles.backgroundBody || '') : '';
+ 
+---
+
+<Layout>
+ <main  class="main page-user">
+    <section class="section section__user_profile">
+       <div class="gr-container ">
+          <div class="gr-row">
+            <div class="gr-col-12 text-center">
+              {user ? (
+                   <UserCardProfile user={user} />
+                ) : (
+                  <p class="text-white">No se encontro el usuario</p>
+                )}
+        </div>
+      </div>
+  </div>
+    </section>
+    <footer class="footer">
+          &copy; <a href="https://orpot.net" class="copy" target="_blank">Biolinks 2024</a>  
+        </footer>
+  </main>
+</Layout>
+
+<style is:global define:vars={{ styleBackgroundImage,styleBackgroundBody  }}>
+    .main.page-user{
+    background: var(--styleBackgroundBody)  var(--styleBackgroundImage) center center no-repeat ;
+    min-height: 100vh;
+    background-size: cover;
+    overflow: auto;
+   }
+
+   .section__user_profile{
+    max-width: 768px;
+    margin: auto;
+   }
+</style>

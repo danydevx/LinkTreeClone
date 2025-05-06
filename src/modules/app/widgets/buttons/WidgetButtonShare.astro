@@ -1,0 +1,78 @@
+---
+const { link } = Astro.props;
+---
+
+<a href={link.share} class="app--widget-button-share" target="_blank">
+  <span class="button-left">
+    <iconify-icon icon={link.icon} class="iconify"></iconify-icon>
+  </span>
+  
+  <span class="button-center">
+    <span class="text">Comparte</span>&nbsp;{link.name}
+  </span>
+  
+  <span class="button-right">
+    <iconify-icon icon="iconamoon:arrow-right-2-bold"></iconify-icon>
+  </span>
+</a>
+
+<style>
+.app--widget-button-share {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 0px;
+  width: 100%;
+ 
+  padding: 0.5rem 0;
+  font-size: var(--button-font-size);
+  font-family: var(--button-font-family);
+  color: #FFF;
+  border: 1px solid #FFF;
+  cursor: pointer;
+  transition: transform 0.3s ease, background 0.3s ease, color 0.3s ease;
+  text-decoration: none;
+  background: #070808;
+}
+
+.app--widget-button-share:hover {
+  transform: scale(1.015);
+  background: #FFF;
+  color: #000;
+}
+
+.button-left {
+  grid-column: span 1;
+  justify-self: start;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1rem;
+  font-size: 2rem;
+  color: inherit;
+}
+
+.button-center {
+  grid-column: span 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.button-center:hover {
+  color: #000;
+}
+
+.button-right {
+  grid-column: span 1;
+  justify-self: end;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1rem;
+  font-size: 2rem;
+  color: inherit;
+}
+</style>

@@ -1,0 +1,64 @@
+---
+import { ViewTransitions } from 'astro:transitions';
+const title='Biolinks - Prueba técnica';
+const metaDescription="Biolinks - Aplicación Demo para una prueba técnica";
+const metaAuthor = "Daniel López";
+const metaUrl ="https://biolinks1.netlify.app/";
+const metaCover  = "https://orpot.net/biolinks_api/cover.jpg";
+const metaBaseColor  ="#FFD800";
+const metaKeyworks = "biografías, artistas, cantantes, deportistas, historia, música, deporte, vida, trayectoria, famosos, celebridades, biografía de artistas, biografía de cantantes, biografía de deportistas, música y deportes, vida de famosos, historia de celebridades, perfiles de artistas, perfiles de cantantes, perfiles de deportistas";
+---
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>{title}</title>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="https://orpot.net/biolinks_api/favicon/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<meta name="description" content={metaDescription} />
+		<meta name="keywords" content={metaKeyworks}>
+		<meta name="author" content={metaAuthor}>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="robots" content="index, follow">
+		<meta name="twitter:card" content={metaDescription}>
+		<meta name="twitter:title" content={title}>
+		<meta name="twitter:description" content={metaDescription}>
+		<meta name="twitter:image" content={metaCover}>
+		<meta property="og:url" content={metaUrl}>
+		<meta property="og:type" content="website">
+		<meta property="og:title" content={title}>
+		<meta property="og:description" content={metaDescription}>
+		<meta property="og:image" content={metaCover} />
+		<link rel="apple-touch-icon" sizes="57x57" href="https://orpot.net/biolinks_api/favicon/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="https://orpot.net/biolinks_api/favicon/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="https://orpot.net/biolinks_api/favicon/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="https://orpot.net/biolinks_api/favicon/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="https://orpot.net/biolinks_api/favicon/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="https://orpot.net/biolinks_api/favicon/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="https://orpot.net/biolinks_api/favicon/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="https://orpot.net/biolinks_api/favicon/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="https://orpot.net/biolinks_api/favicon/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="https://orpot.net/biolinks_api/favicon/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="https://orpot.net/biolinks_api/favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="https://orpot.net/biolinks_api/favicon/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="https://orpot.net/biolinks_api/favicon/favicon-16x16.png">
+		<link rel="manifest" href="https://orpot.net/biolinks_api/favicon/manifest.json">
+		<meta name="msapplication-TileColor" content={{metaBaseColor}}>
+		<meta name="msapplication-TileImage" content="https://orpot.net/biolinks_api/favicon/ms-icon-144x144.png">
+		<meta name="theme-color" content={{metaBaseColor}}>
+		<style is:global>
+	    @import '/src/assets/css/style.css';
+	    @import '/src/assets/css/app.css';
+	    @import '/src/assets/css/app-buttons.css';
+	    </style>
+ 		<script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"  ></script>
+		 <ViewTransitions />
+	</head>
+	<body>
+		<slot />
+	</body>
+	<script is:inline src="https://code.iconify.design/iconify-icon/2.0.0/iconify-icon.min.js"></script>
+</html>
+

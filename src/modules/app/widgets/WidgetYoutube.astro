@@ -1,0 +1,62 @@
+---
+import ButtonsShare from '@components/ui/buttons/ButtonsShare.astro'
+import ButtonsLogin from '@components/ui/buttons/ButtonsLogin.astro'
+
+const { widget } = Astro.props;
+ 
+ 
+
+const embed = widget.embed;
+
+ 
+ 
+---
+<section class="app--widget app--widget-youtube">
+	
+
+<div class="widget-container">
+  <iframe width="100%" height="auto" class="YTvideo" src={embed} title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+<ButtonsShare  url={widget.link}  text={widget.message} />
+<ButtonsLogin />
+</section>
+ 
+<style>
+
+.app--widget-youtube{}
+.app--widget-youtube .widget-container {
+   
+  overflow-y: none;
+  scroll-behavior: smooth;  
+  padding: 1rem;
+  color: #FFF;
+   
+}
+
+.app--widget-youtube .widget-container iframe{
+  box-shadow: 10px 10px 10px rgba(0,0,0,.50);
+  border-radius: 1rem;
+  border: 2px solid #ccc;
+}
+ 
+.app--widget-youtube .widget-container::-webkit-scrollbar {
+  width: 8px;
+}
+
+.app--widget-youtube .widget-container::-webkit-scrollbar-thumb {
+  background-color: #ccc; 
+  border-radius: 4px;
+}
+
+.app--widget-youtube .widget-container::-webkit-scrollbar-track {
+  background-color: #f5f5f5;
+}
+
+.YTvideo{
+  width: 100%;
+  min-height: 300px;
+}
+
+
+</style>

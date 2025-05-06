@@ -1,0 +1,54 @@
+---
+const { signupUrl, signinUrl } = Astro.props;
+---
+<div class="app--widget-section-register">
+  	<div class="app--widget-section-container"> 
+      <h5>Únete a Biolinks</h5>
+      <p>Consigue tu propio Biolinks gratis. El único enlace en la biografía en el que confían más de 5 millones de personas.</p>
+	  <a href="#" class="app--button-register">Registrarse</a>
+	  <a  href="#" class="app--button-login">Iniciar sesión</a>
+	</div>
+</div>
+
+<style is:global>
+.app--widget-section-register{
+
+}
+.app--widget-section-container{ }
+.app--widget-section-container h5{color:#FFF;  font-size: 1rem; }
+.app--widget-section-container p{ text-align: left; font-size: 0.9rem; }
+
+.app--button-register,
+.app--button-login{
+   width: 100%;
+   display: block;
+   border: 1px solid #FFF;
+   padding: 1rem 0;
+   font-weight:bold;
+   margin: 0.5rem 0;
+   font-size: 1.2rem;
+   font-family: "Open Sans",sans-serif;
+   border-radius: 1.5rem;
+
+}
+
+.app--button-register{
+	border: 2px solid #FFF;
+	color: #FFF;
+   background: var(--clr-6);
+}
+.app--button-register:hover{
+   background: var(--clr-5);
+}
+.app--button-login{
+	background: #000;
+	color: #FFF;
+}
+
+
+
+.app--button-login{
+   border: 3px solid #FFF;
+   color: #FFF;
+}
+</style>

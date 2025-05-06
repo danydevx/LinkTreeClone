@@ -1,0 +1,106 @@
+---
+const { user, slug } = Astro.props;
+
+const userUrl = `/users/${slug}`;
+const cardImage =  user.profile.card;
+---
+ 
+<div class="app-profile-card">
+ 
+  <div class="profile-card-overlay">
+    <img src={cardImage} alt="" class="img-fluid overlay-image">
+  </div>
+
+  <figure>
+    <div class="profile-pic">
+      <img src={user.profile.image.big} alt={user.profile.username} class="img-fluid">
+    </div>
+  </figure>
+  
+  <h2 class="profile-title m-0 p-0">
+     {user.profile.firstname} {user.profile.lastname} 
+  </h2>
+   
+  <a href={userUrl} class="button button-rounded button-1 my-1">Mi Biolink</a>
+</div>
+
+<style is:global>
+.app-profile-card {
+  position: relative;
+  text-align: center;
+  background: rgba(0,0,0,0.5);
+  box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  border-radius:1rem;
+  max-width: 300px;
+  margin: auto;
+  overflow: hidden;
+  margin:0.5rem 1rem;
+}
+
+.app-profile-card .profile-card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  transition: opacity 0.3s ease;
+}
+
+.app-profile-card .profile-card-overlay img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.app-profile-card:hover .profile-card-overlay {
+  opacity: 0;
+  display: none;
+ 
+}
+
+.app-profile-card .profile-pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: auto;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.app-profile-card .profile-title,
+.app-profile-card .button {
+  position: relative;
+  z-index: 1;  
+}
+
+.app-profile-card .profile-title a {
+  color: #FFF;
+  font-size: var(--fs-5);
+}
+
+.app-profile-card .profile-pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+@media (max-width: 600px) {
+  .app-profile-card {
+    max-width: 100%;
+    padding: 0.5rem;
+  }
+
+  .app-profile-card .profile-pic {
+    width: 80px;
+    height: 80px;
+  }
+}
+</style>

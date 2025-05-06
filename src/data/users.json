@@ -1,0 +1,2597 @@
+[
+{
+    "id": 7,
+    "slug": "michael_jordan",
+    "profile": {
+      "username": "michael_jordan",
+      "firstname": "Michael",
+      "lastname": "Jordan",
+      "card":"https://orpot.net/biolinks_api/jordan.png",
+      "image": {
+        "big": "https://orpot.net/biolinks_api/mj/profile.jpg",
+        "thumb": "https://orpot.net/biolinks_api/mj/profile.jpg"
+      },
+      "about": {
+        "title": "Michael Jordan",
+        "subtitle": "Basketball Legend",
+        "text": "<p>Michael Jordan, conocido como 'MJ', es ampliamente considerado uno de los mejores jugadores de baloncesto de todos los tiempos. Su carrera en la NBA está llena de campeonatos y premios MVP, y su influencia en el deporte es inigualable.</p>"
+      },
+      "socialLinks": {
+        "title": "Sígueme",
+        "subtitle": "Sígueme en mis redes sociales",
+        "link": "",
+        "links": [
+          {
+            "name": "Facebook",
+            "value": "https://www.facebook.com/Michael.J0rdan/?locale=es_ES",
+            "type": "social",
+            "username": "michaeljordan",
+            "icon": "ion:logo-facebook"
+          },
+          {
+            "name": "Twitter",
+            "value": "https://x.com/jumpman23?lang=es",
+            "type": "social",
+            "username": "michaeljordan",
+            "icon": "ion:logo-twitter"
+          },
+          
+          {
+            "name": "Instagram",
+            "value": "https://www.instagram.com/jumpman23/",
+            "type": "social",
+            "username": "michaeljordan",
+            "icon": "ion:logo-instagram"
+          },
+          {
+            "name": "Website",
+            "value": "https://www.nike.com/jordan",
+            "type": "url",
+            "username": "michaeljordan",
+            "icon": "ion:logo-website"
+          }
+        ]
+      }
+    },
+    "widgets": [
+      {
+        "type": 2,
+        "name": "spotify", "icon":"hugeicons:spotify",
+        "id": 4,
+        "title": "Escucha mi música",
+        "image": "url(https://orpot.net/biolinks_api/mj/mj-2.jpg)",
+        "message": "Este es un tema destacado",
+        "link": "https://open.spotify.com/embed/track/683hRieVmYdAhVA1DkjSAk",
+        "embed": "https://open.spotify.com/embed/track/683hRieVmYdAhVA1DkjSAk?utm_source=generator"
+      }
+      ,
+      {
+        "id": 1,
+        "type": 1,
+         "name": "share", "icon":"material-symbols-light:share-outline",
+        "image": "",
+        "title": "Comparte mi biografia",
+        "message": "Comparte este enlace",
+        "link": "https://biolinks1.netlify.app/michaeljordan",
+        "links": [
+          {
+            "name": "Facebook",
+            "value": "https://facebook.com/michaeljordan",
+            "type": "social",
+            "username": "michaeljordan",
+            "icon": "ion:logo-facebook",
+            "share": "https://facebook.com/sharer/sharer.php?u=https://biolinks1.netlify.app/users/michael_jordan&quote=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/michael_jordan"
+          },
+          {
+            "name": "Twitter",
+            "value": "https://twitter.com/michaeljordan",
+            "type": "social",
+            "username": "michaeljordan",
+            "icon": "ion:logo-twitter",
+            "share": "https://twitter.com/intent/tweet?url=https://michaeljordan.com&text=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/michael_jordan"
+          },
+          {
+            "name": "LinkedIn",
+            "value": "https://linkedin.com/in/michaeljordan",
+            "type": "social",
+            "username": "michaeljordan",
+            "icon": "ion:logo-linkedin",
+            "share": "https://www.linkedin.com/shareArticle?mini=true&url=https://biolinks1.netlify.app/users/michael_jordan&title=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/michael_jordan"
+          },
+          {
+            "name": "Instagram",
+            "value": "https://instagram.com/michaeljordan",
+            "type": "social",
+            "username": "michaeljordan",
+            "icon": "ion:logo-instagram",
+            "share": "https://www.instagram.com/?url=https://biolinks1.netlify.app/users/michael_jordan&caption=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/michael_jordan"
+          },
+          {
+            "name": "WhatsApp",
+            "value": "https://wa.me/",
+            "type": "social",
+            "username": "",
+            "icon": "ion:logo-whatsapp",
+            "share": "https://api.whatsapp.com/send?text=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/michael_jordan"
+          },
+          {
+            "name": "Snapchat",
+            "value": "https://www.snapchat.com/add/",
+            "type": "social",
+            "username": "",
+            "icon": "ion:logo-snapchat",
+            "share": "https://www.snapchat.com/add/"
+          },
+          {
+            "name": "Email",
+            "value": "mailto:",
+            "type": "email",
+            "username": "",
+            "icon": "ion:mail",
+            "share": "mailto:?subject=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/michael_jordan"
+          },
+          {
+            "name": "Pinterest",
+            "value": "https://www.pinterest.com/",
+            "type": "social",
+            "username": "",
+            "icon": "ion:logo-pinterest",
+            "share": "https://www.pinterest.com/pin/create/button/?url=https://biolinks1.netlify.app/users/michael_jordan&media=&description=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/michael_jordan"
+          }
+        ]
+      },
+      
+      {
+        "type": 1,
+        "name": "post", "icon":"material-symbols:post-outline",
+        "id": 5,
+        "title": "Un gran momento en mi carrera",
+        "image": "url(https://orpot.net/biolinks_api/mj/mj-1.jpg)",
+        "message": "",
+        "content": "<p>Este es un gran momento en la carrera de Michael Jordan. Desde sus inicios en los Chicago Bulls hasta su influencia en el baloncesto global, Michael ha dejado una huella imborrable en el deporte.</p>",
+        "link": "https://en.wikipedia.org/wiki/Michael_Jordan",
+        "embed": ""
+      },
+      {
+        "type": 1,
+        "name": "post", "icon":"material-symbols:post-outline",
+        "id": 6,
+        "title": "El legado de Michael Jordan",
+        "image": "url(https://orpot.net/biolinks_api/mj/mj-2.jpg)",
+        "message": "",
+        "content": "<p>Michael Jordan es más que un atleta; es una leyenda del deporte. Su legado continúa inspirando a jóvenes deportistas en todo el mundo.</p>",
+        "link": "https://en.wikipedia.org/wiki/Michael_Jordan",
+        "embed": ""
+      },
+      {
+        "id": 3,
+        "type": 2,
+        "name": "gallery", "icon":"mdi:view-gallery-outline",
+        "image": "url(https://orpot.net/biolinks_api/mj/mj-1.jpg)",
+        "title": "Galería",
+        "message": "Explora mi galería",
+        "links": [],
+        "link": "",
+        "images": [
+          {
+            "thumb": "https://orpot.net/biolinks_api/mj/mj-1.jpg",
+            "big": "https://orpot.net/biolinks_api/mj/mj-1.jpg",
+            "title": "El gran Michael Jordan"
+          },
+          {
+            "thumb": "https://orpot.net/biolinks_api/mj/mj-2.jpg",
+            "big": "https://orpot.net/biolinks_api/mj/mj-2.jpg",
+            "title": "En acción"
+          },
+          {
+            "thumb": "https://orpot.net/biolinks_api/mj/mj-3.jpg",
+            "big": "https://orpot.net/biolinks_api/mj/mj-3.jpg",
+            "title": "Un momento icónico"
+          },
+          {
+            "thumb": "https://orpot.net/biolinks_api/mj/mj-4.jpg",
+            "big": "https://orpot.net/biolinks_api/mj/mj-4.jpg",
+            "title": "Durante el campeonato"
+          },
+          {
+            "thumb": "https://orpot.net/biolinks_api/mj/mj-5.jpg",
+            "big": "https://orpot.net/biolinks_api/mj/mj-5.jpg",
+            "title": "Celebrando la victoria"
+          }
+        ]
+      }
+    ],
+    "styles": {
+      "backgroundBody": "#c8102e",
+      "backgroundImage": "https://orpot.net/biolinks_api/mj/background.jpg",
+      "backgroundHero": "url(https://orpot.net/biolinks_api/mj/mj-2.jpg)",
+      "backgroundProfile": "#1d1d1d",
+      "backgroundProfileShadow": "rgba(0, 0, 0, 0.5)",
+      "backgroundModal": "rgba(0, 0, 0, 0.75)",
+      "backgroundModalShadow": "rgba(0, 0, 0, 0.5)",
+      "fontTitle": "'Kanit', sans-serif",
+      "fontText": "'Kanit', sans-serif",
+      "buttonFontFamily":"'Kanit', sans-serif",
+      "buttonFontColor": "#ffffff",
+      "buttonFontSize": "1rem",
+      "buttonFontColorHover": "#d0d0d0",
+      "buttonBackground": "#c8102e",
+      "buttonBackgroundHover": "#a60b22",
+      "buttonBorder": "2px solid #000000",
+      "buttonBorderRadius": "5px",
+      "buttonStyles": "app--button app--button-link app--button-soft-shadow app--button-square"
+    }
+}
+,
+{
+  "id": 8,
+  "slug": "kobe_bryant",
+  "profile": {
+    "username": "kobe_bryant",
+    "firstname": "Kobe",
+    "lastname": "Bryant",
+    "card":"https://orpot.net/biolinks_api/lakers-logo.png",
+    "image": {
+      "big": "https://orpot.net/biolinks_api/kb/profile.jpg",
+      "thumb": "https://orpot.net/biolinks_api/kb/profile.jpg"
+    },
+    "about": {
+      "title": "Kobe Bryant",
+      "subtitle": "Basketball Icon",
+      "text": "<p>Kobe Bryant, apodado 'Black Mamba', es uno de los jugadores de baloncesto más icónicos de la historia de la NBA. Con cinco campeonatos y numerosos premios, su impacto en el deporte y su legado son innegables.</p>"
+    },
+    "socialLinks": {
+      "title": "Sígueme",
+      "subtitle": "Sígueme en mis redes sociales",
+      "link": "",
+      "links": [
+        {
+          "name": "Facebook",
+          "value": "https://www.facebook.com/KobeBryant",
+          "type": "social",
+          "username": "kobe_bryant",
+          "icon": "ion:logo-facebook"
+        },
+        {
+          "name": "Twitter",
+          "value": "https://x.com/kobebryant",
+          "type": "social",
+          "username": "kobe_bryant",
+          "icon": "ion:logo-twitter"
+        },
+        {
+          "name": "Instagram",
+          "value": "https://www.instagram.com/kobebryant/",
+          "type": "social",
+          "username": "kobe_bryant",
+          "icon": "ion:logo-instagram"
+        },
+        {
+          "name": "Website",
+          "value": "https://www.kobebryant.com",
+          "type": "url",
+          "username": "kobe_bryant",
+          "icon": "ion:logo-website"
+        }
+      ]
+    }
+  },
+  "widgets": [
+    {
+      "type": 2,
+      "name": "spotify", "icon":"hugeicons:spotify",
+      "id": 4,
+      "title": "Escucha mi música",
+      "image": "url(https://orpot.net/biolinks_api/kb/2.jpg)",
+      "message": "Este es un tema destacado",
+      "link": "https://open.spotify.com/embed/track/7sYtgBHnF2D1mgA7vNXig1",
+      "embed": "https://open.spotify.com/embed/track/7sYtgBHnF2D1mgA7vNXig1?utm_source=generator"
+    },
+    {
+      "id": 1,
+      "type": 1,
+       "name": "share", "icon":"material-symbols-light:share-outline",
+      "image": "",
+      "title": "Comparte este enlace",
+      "message": "",
+      "link": "https://biolinks1.netlify.app/kobe_bryant",
+      "links": [
+        {
+          "name": "Facebook",
+          "value": "https://facebook.com/kobebryant",
+          "type": "social",
+          "username": "kobe_bryant",
+          "icon": "ion:logo-facebook",
+          "share": "https://facebook.com/sharer/sharer.php?u=https://biolinks1.netlify.app/users/kobe_bryant&quote=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/kobe_bryant"
+        },
+        {
+          "name": "Twitter",
+          "value": "https://twitter.com/kobebryant",
+          "type": "social",
+          "username": "kobe_bryant",
+          "icon": "ion:logo-twitter",
+          "share": "https://twitter.com/intent/tweet?url=https://biolinks1.netlify.app/users/kobe_bryant&text=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/kobe_bryant"
+        },
+        {
+          "name": "LinkedIn",
+          "value": "https://linkedin.com/in/kobebryant",
+          "type": "social",
+          "username": "kobe_bryant",
+          "icon": "ion:logo-linkedin",
+          "share": "https://www.linkedin.com/shareArticle?mini=true&url=https://biolinks1.netlify.app/users/kobe_bryant&title=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/kobe_bryant"
+        },
+        {
+          "name": "Instagram",
+          "value": "https://instagram.com/kobebryant",
+          "type": "social",
+          "username": "kobe_bryant",
+          "icon": "ion:logo-instagram",
+          "share": "https://www.instagram.com/?url=https://biolinks1.netlify.app/users/kobe_bryant&caption=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/kobe_bryant"
+        },
+        {
+          "name": "WhatsApp",
+          "value": "https://wa.me/",
+          "type": "social",
+          "username": "",
+          "icon": "ion:logo-whatsapp",
+          "share": "https://api.whatsapp.com/send?text=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/kobe_bryant"
+        },
+        {
+          "name": "Snapchat",
+          "value": "https://www.snapchat.com/add/",
+          "type": "social",
+          "username": "",
+          "icon": "ion:logo-snapchat",
+          "share": "https://www.snapchat.com/add/"
+        },
+        {
+          "name": "Email",
+          "value": "mailto:",
+          "type": "email",
+          "username": "",
+          "icon": "ion:mail",
+          "share": "mailto:?subject=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/kobe_bryant"
+        },
+        {
+          "name": "Pinterest",
+          "value": "https://www.pinterest.com/",
+          "type": "social",
+          "username": "",
+          "icon": "ion:logo-pinterest",
+          "share": "https://www.pinterest.com/pin/create/button/?url=https://biolinks1.netlify.app/users/kobe_bryant&media=&description=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/kobe_bryant"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "name": "post", "icon":"material-symbols:post-outline",
+      "id": 5,
+      "title": "Un gran momento en mi carrera",
+      "image": "url(https://orpot.net/biolinks_api/kb/1.jpg)",
+      "message": "",
+      "content": "<p>Este es un gran momento en la carrera de Kobe Bryant. Desde sus inicios en Los Angeles Lakers hasta su impacto global en el baloncesto, Kobe ha dejado una huella imborrable en el deporte.</p>",
+      "link": "https://en.wikipedia.org/wiki/Kobe_Bryant",
+      "embed": ""
+    },
+    {
+      "type": 2,
+      "name": "youtube", "icon":"mingcute:youtube-line",
+      "id": 5,
+      "title": "40 nuevas jugadas",
+      "message": "40 nuevas jugadas",
+        "image": "url(https://i.ytimg.com/vi/1fjhIWJSxfw/sddefault.jpg)",
+      "link": "https://www.youtube.com/watch?v=1fjhIWJSxfw",
+      "embed": "https://www.youtube.com/embed/1fjhIWJSxfw?si=CO8XMF5qrNFJYhlq"
+    },
+    {
+      "type": 1,
+      "name": "post", "icon":"material-symbols:post-outline",
+      "id": 6,
+      "title": "El legado de Kobe Bryant",
+      "image": "url(https://orpot.net/biolinks_api/kb/2.jpg)",
+      "message": "",
+      "content": "<p>Kobe Bryant es más que un atleta; es una leyenda del deporte. Su legado continúa inspirando a jóvenes deportistas en todo el mundo.</p>",
+      "link": "https://en.wikipedia.org/wiki/Kobe_Bryant",
+      "embed": ""
+    },
+    {
+      "id": 3,
+      "type": 2,
+      "name": "gallery", "icon":"mdi:view-gallery-outline",
+      "image": "url(https://orpot.net/biolinks_api/kb/1.jpg)",
+      "title": "Galería",
+      "message": "Explora mi galería",
+      "links": [],
+      "link": "",
+      "images": [
+        {
+          "thumb": "https://orpot.net/biolinks_api/kb/1.jpg",
+          "big": "https://orpot.net/biolinks_api/kb/1.jpg",
+          "title": "El gran Kobe Bryant"
+        },
+        {
+          "thumb": "https://orpot.net/biolinks_api/kb/2.jpg",
+          "big": "https://orpot.net/biolinks_api/kb/2.jpg",
+          "title": "En acción"
+        },
+        {
+          "thumb": "https://orpot.net/biolinks_api/kb/3.jpg",
+          "big": "https://orpot.net/biolinks_api/kb/3.jpg",
+          "title": "Un momento icónico"
+        },
+        {
+          "thumb": "https://orpot.net/biolinks_api/kb/4.jpg",
+          "big": "https://orpot.net/biolinks_api/kb/4.jpg",
+          "title": "Durante el campeonato"
+        },
+        {
+          "thumb": "https://orpot.net/biolinks_api/kb/5.jpg",
+          "big": "https://orpot.net/biolinks_api/kb/5.jpg",
+          "title": "Celebrando la victoria"
+        }
+      ]
+    }
+
+  ],
+  "styles": {
+     "backgroundBody": "#552583",
+      "backgroundImage": "https://orpot.net/biolinks_api/kb/background.jpg",
+      "backgroundHero": "url(https://orpot.net/biolinks_api/kb/2.jpg)",
+      "backgroundProfile": "#000000",
+      "backgroundProfileShadow": "rgba(0, 0, 0, 0.6)",
+      "backgroundModal": "rgba(0, 0, 0, 0.8)",
+      "backgroundModalShadow": "rgba(0, 0, 0, 0.6)",
+      "fontTitle": "'Kanit', sans-serif",
+      "fontText": "'Kanit', sans-serif",
+      "buttonFontFamily": "'Kanit', sans-serif",
+      "buttonFontColor": "#ffffff",
+      "buttonFontSize": "1rem",
+      "buttonFontColorHover": "#e0e0e0",
+      "buttonBackground": "#552583",
+      "buttonBackgroundHover": "#3e1f70",
+      "buttonBorder": "2px solid #ffffff",
+      "buttonBorderRadius": "5px",
+      "buttonStyles": "app--button app--button-link app--button-soft-shadow app--button-square"
+  }
+}
+,
+{
+  "id": 9,
+  "slug": "eminem",
+  "profile": {
+    "username": "eminem",
+    "firstname": "Eminem",
+    "lastname": "",
+    "card":"https://orpot.net/biolinks_api/em.png",
+    "image": {
+      "big": "https://orpot.net/biolinks_api/em/profile.jpg",
+      "thumb": "https://orpot.net/biolinks_api/em/profile.jpg"
+    },
+    "about": {
+      "title": "Eminem",
+      "subtitle": "Rapper Icon",
+      "text": "<p>Eminem, conocido también como Slim Shady, es uno de los raperos más influyentes de todos los tiempos. Con una carrera llena de éxitos y premios, su impacto en la música y la cultura es innegable.</p>"
+    },
+    "socialLinks": {
+      "title": "Sígueme",
+      "subtitle": "Sígueme en mis redes sociales",
+      "link": "",
+      "links": [
+        {
+          "name": "Facebook",
+          "value": "https://www.facebook.com/Eminem",
+          "type": "social",
+          "username": "eminem",
+          "icon": "ion:logo-facebook"
+        },
+        {
+          "name": "Twitter",
+          "value": "https://twitter.com/Eminem",
+          "type": "social",
+          "username": "eminem",
+          "icon": "ion:logo-twitter"
+        },
+        {
+          "name": "Instagram",
+          "value": "https://www.instagram.com/eminem/",
+          "type": "social",
+          "username": "eminem",
+          "icon": "ion:logo-instagram"
+        },
+        {
+          "name": "Website",
+          "value": "https://www.eminem.com",
+          "type": "url",
+          "username": "eminem",
+          "icon": "ion:logo-website"
+        }
+      ]
+    }
+  },
+  "widgets": [
+    {
+      "type": 1,
+      "name": "spotify", 
+      "icon":"hugeicons:spotify",
+      "id": 4,
+      "title": "Lose Yourself",
+      "image": "url(https://orpot.net/biolinks_api/em/2.jpg)",
+      "message": "Lose Yourself",
+      "link": "https://open.spotify.com/embed/track/1v7L65Lzy0j0vdpRjJewt1?utm_source=generator",
+      "embed": "https://open.spotify.com/embed/track/1v7L65Lzy0j0vdpRjJewt1?utm_source=generator"
+    },
+    {
+      "type": 1,
+      "name": "spotify", 
+      "icon":"hugeicons:spotify",
+      "id": 7,
+      "title": "The Death of Slim Shady",
+      "image": "url(https://orpot.net/biolinks_api/em/2.jpg)",
+      "message": "The Death of Slim Shady",
+      "link": "https://open.spotify.com/embed/album/3kjHLu1pL7tdY88GFwEkl6?utm_source=generator",
+      "embed": "https://open.spotify.com/embed/album/3kjHLu1pL7tdY88GFwEkl6?utm_source=generator"
+    },
+    {
+      "type": 1,
+      "name": "spotify", 
+      "icon":"hugeicons:spotify",
+      "id": 8,
+      "title": "The Real Slim Shady",
+      "image": "url(https://orpot.net/biolinks_api/em/2.jpg)",
+      "message": "The Real Slim Shady",
+      "link": "https://open.spotify.com/embed/track/3yfqSUWxFvZELEM4PmlwIR?utm_source=generator",
+      "embed": "https://open.spotify.com/embed/track/3yfqSUWxFvZELEM4PmlwIR?utm_source=generator"
+    },
+     {
+      "type": 2,
+      "name": "youtube", "icon":"mingcute:youtube-line",
+      "id": 5,
+       "image": "url(https://i.ytimg.com/vi/YVkUvmDQ3HY/sddefault.jpg)",
+    
+      "title": "Eminem - Without Me (Official Music Video)",
+      "message": "Eminem - Without Me (Official Music Video)",
+      "link": "https://www.youtube.com/watch?v=YVkUvmDQ3HY",
+      "embed": "https://www.youtube.com/embed/YVkUvmDQ3HY?si=QsjnsiruYFb7ctcg"
+    },
+    {
+      "id": 1,
+      "type": 1,
+      "name": "share", 
+      "icon":"material-symbols-light:share-outline",
+      "image": "",
+      "title": "Comparte este enlace",
+      "message": "",
+      "link": "https://biolinks1.netlify.app/users/eminem",
+      "links": [
+        {
+          "name": "Facebook",
+          "value": "https://facebook.com/eminem",
+          "type": "social",
+          "username": "eminem",
+          "icon": "ion:logo-facebook",
+          "share": "https://facebook.com/sharer/sharer.php?u=https://eminem.com&quote=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/eminem"
+        },
+        {
+          "name": "Twitter",
+          "value": "https://twitter.com/eminem",
+          "type": "social",
+          "username": "eminem",
+          "icon": "ion:logo-twitter",
+          "share": "https://twitter.com/intent/tweet?url=https://eminem.com&text=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/eminem"
+        },
+        {
+          "name": "LinkedIn",
+          "value": "https://linkedin.com/in/eminem",
+          "type": "social",
+          "username": "eminem",
+          "icon": "ion:logo-linkedin",
+          "share": "https://www.linkedin.com/shareArticle?mini=true&url=https://eminem.com&title=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/"
+        },
+        {
+          "name": "Instagram",
+          "value": "https://instagram.com/eminem",
+          "type": "social",
+          "username": "eminem",
+          "icon": "ion:logo-instagram",
+          "share": "https://www.instagram.com/?url=https://biolinks1.netlify.app/users/eminem&caption=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/eminem"
+        },
+        {
+          "name": "WhatsApp",
+          "value": "https://wa.me/",
+          "type": "social",
+          "username": "",
+          "icon": "ion:logo-whatsapp",
+          "share": "https://api.whatsapp.com/send?text=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/eminem"
+        },
+        {
+          "name": "Snapchat",
+          "value": "https://www.snapchat.com/add/",
+          "type": "social",
+          "username": "",
+          "icon": "ion:logo-snapchat",
+          "share": "https://www.snapchat.com/add/"
+        },
+        {
+          "name": "Email",
+          "value": "mailto:",
+          "type": "email",
+          "username": "",
+          "icon": "ion:mail",
+          "share": "mailto:?subject=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/eminem"
+        },
+        {
+          "name": "Pinterest",
+          "value": "https://www.pinterest.com/",
+          "type": "social",
+          "username": "",
+          "icon": "ion:logo-pinterest",
+          "share": "https://www.pinterest.com/pin/create/button/?url=https://biolinks1.netlify.app/users/eminem&media=&description=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "name": "post", "icon":"material-symbols:post-outline",
+      "id": 5,
+      "title": "Un gran momento en mi carrera",
+      "image": "url(https://orpot.net/biolinks_api/em/1.jpg)",
+      "message": "",
+      "content": "<p>Este es un gran momento en la carrera de Eminem. Desde sus inicios en Detroit hasta su impacto global en la música, Eminem ha dejado una huella imborrable en el rap.</p>",
+      "link": "https://en.wikipedia.org/wiki/Eminem",
+      "embed": ""
+    },
+    {
+      "type": 1,
+      "name": "post", "icon":"material-symbols:post-outline",
+      "id": 6,
+      "title": "El legado de Eminem",
+      "image": "url(https://orpot.net/biolinks_api/em/2.jpg)",
+      "message": "",
+      "content": "<p>Eminem es más que un artista; es una leyenda del rap. Su legado continúa inspirando a nuevos artistas y fanáticos en todo el mundo.</p>",
+      "link": "https://en.wikipedia.org/wiki/Eminem",
+      "embed": ""
+    },
+    {
+      "id": 3,
+      "type": 2,
+      "name": "gallery", "icon":"mdi:view-gallery-outline",
+      "image": "url(https://orpot.net/biolinks_api/em/1.jpg)",
+      "title": "Galería",
+      "message": "Explora mi galería",
+      "links": [],
+      "link": "",
+      "images": [
+        {
+          "thumb": "https://orpot.net/biolinks_api/em/1.jpg",
+          "big": "https://orpot.net/biolinks_api/em/1.jpg",
+          "title": "Eminem en el escenario"
+        },
+        {
+          "thumb": "https://orpot.net/biolinks_api/em/2.jpg",
+          "big": "https://orpot.net/biolinks_api/em/2.jpg",
+          "title": "En el estudio"
+        },
+        {
+          "thumb": "https://orpot.net/biolinks_api/em/3.jpg",
+          "big": "https://orpot.net/biolinks_api/em/3.jpg",
+          "title": "Un momento icónico"
+        },
+        {
+          "thumb": "https://orpot.net/biolinks_api/em/4.jpg",
+          "big": "https://orpot.net/biolinks_api/em/4.jpg",
+          "title": "Durante una actuación"
+        },
+        {
+          "thumb": "https://orpot.net/biolinks_api/em/5.jpg",
+          "big": "https://orpot.net/biolinks_api/em/5.jpg",
+          "title": "Celebrando el éxito"
+        }
+      ]
+    }
+  ],
+  "styles": {
+     "backgroundBody": "#1e1e1e",
+    "backgroundImage": "https://orpot.net/biolinks_api/em/background.jpg",
+    "backgroundHero": "url(https://orpot.net/biolinks_api/em/em-hero.jpg)",
+    "backgroundProfile": "#3CBCD8",
+    "backgroundProfileShadow": "rgba(0, 0, 0, 0.6)",
+    "backgroundModal": "rgba(0, 0, 0, 0.8)",
+    "backgroundModalShadow": "rgba(0, 0, 0, 0.7)",
+    "fontTitle": "'Kanit', sans-serif",
+    "fontText": "'Kanit', sans-serif",
+    "buttonFontFamily": "'Kanit', sans-serif",
+    "buttonFontColor": "#1e1e1e",
+    "buttonFontSize": "1rem",
+    "buttonFontColorHover": "#000000",
+    "buttonBackground": "#FFCC01",
+    "buttonBackgroundHover": "#e6b800",
+    "buttonBorder": "2px solid #FFCC01",
+    "buttonBorderRadius": "5px",
+    "buttonStyles": "app--button app--button-link app--button-soft-shadow app--button-square"
+  }
+},
+{
+  "id": 10,
+  "slug": "elliot_alderson",
+  "profile": {
+    "username": "elliot_alderson",
+    "firstname": "Elliot",
+    "lastname": "Alderson",
+    "card": "https://orpot.net/biolinks_api/elliot/card.png",
+    "image": {
+      "big": "https://orpot.net/biolinks_api/elliot/profile.jpg",
+      "thumb": "https://orpot.net/biolinks_api/elliot/profile.jpg"
+    },
+    "about": {
+      "title": "Elliot Alderson",
+      "subtitle": "Cybersecurity Engineer",
+      "text": "<p>Elliot Alderson es un ingeniero de ciberseguridad y hacker vigilante. Con un profundo conocimiento de los sistemas informáticos, lucha contra el sistema corrupto mientras enfrenta sus propios demonios personales.</p>"
+    },
+    "socialLinks": {
+      "title": "Sígueme",
+      "subtitle": "Sígueme en mis redes sociales",
+      "link": "",
+      "links": [
+        {
+          "name": "Facebook",
+          "value": "https://www.facebook.com/ElliotAlderson/",
+          "type": "social",
+          "username": "elliotalderson",
+          "icon": "ion:logo-facebook"
+        },
+        {
+          "name": "Twitter",
+          "value": "https://x.com/elliotalderson",
+          "type": "social",
+          "username": "elliotalderson",
+          "icon": "ion:logo-twitter"
+        },
+        {
+          "name": "Instagram",
+          "value": "https://www.instagram.com/elliotalderson/",
+          "type": "social",
+          "username": "elliotalderson",
+          "icon": "ion:logo-instagram"
+        },
+        {
+          "name": "Website",
+          "value": "https://fsociety.com",
+          "type": "url",
+          "username": "elliotalderson",
+          "icon": "ion:logo-website"
+        }
+      ]
+    }
+  },
+  "widgets": [
+    {
+      "type": 2,
+      "name": "spotify",
+      "icon": "hugeicons:spotify",
+      "id": 4,
+      "title": "Hellow Friend 1.0",
+      "image": "url(https://orpot.net/biolinks_api/elliot/2.jpg)",
+      "message": "Hellow Friend 1.0",
+      "link": "https://open.spotify.com/embed/track/2fFlmlePz9hrVMv4LvdQxN?utm_source=generator",
+      "embed": "https://open.spotify.com/embed/track/2fFlmlePz9hrVMv4LvdQxN?utm_source=generator"
+    },
+     {
+      "type":2,
+      "name": "youtube", 
+      "icon":"mingcute:youtube-line",
+      "id": 5,
+      "title": "Mr. Robot | Fuck Society",
+      "image": "url(https://i.ytimg.com/vi/ajNvgZAI1uc/sddefault.jpg)",
+      "message": "Mr. Robot | Fuck Society",
+      "link":"https://www.youtube.com/watch?v=ajNvgZAI1uc",
+      "embed": "https://www.youtube.com/embed/ajNvgZAI1uc?si=VzqkDfSDQg3GXMjs"
+    },
+    {
+      "type": 1,
+      "name": "post",
+      "icon": "material-symbols:post-outline",
+      "id": 5,
+      "title": "Un gran momento en mi carrera",
+      "image": "url(https://orpot.net/biolinks_api/elliot/1.jpg)",
+      "message": "",
+      "content": "<p>Este es un momento crucial en la vida de Elliot Alderson, donde decide unirse a fsociety y luchar contra la corporación maligna E Corp. Este es el inicio de un viaje lleno de desafíos personales y globales.</p>",
+      "link": "https://en.wikipedia.org/wiki/Elliot_Alderson",
+      "embed": ""
+    },
+    {
+      "type": 1,
+      "name": "post",
+      "icon": "material-symbols:post-outline",
+      "id": 6,
+      "title": "El legado de Elliot Alderson",
+      "image": "url(https://orpot.net/biolinks_api/elliot/2.jpg)",
+      "message": "",
+      "content": "<p>Elliot Alderson, más que un hacker, es un héroe moderno que lucha contra la corrupción del sistema. Su legado sigue inspirando a los que creen en la justicia y la verdad.</p>",
+      "link": "https://en.wikipedia.org/wiki/Elliot_Alderson",
+      "embed": ""
+    },
+    {
+      "id": 3,
+      "type": 2,
+      "name": "gallery",
+      "icon": "mdi:view-gallery-outline",
+      "image": "url(https://orpot.net/biolinks_api/elliot/1.jpg)",
+      "title": "Galería",
+      "message": "Explora mi galería",
+      "links": [],
+      "link": "",
+      "images": [
+        {
+          "thumb": "https://orpot.net/biolinks_api/elliot/1.jpg",
+          "big": "https://orpot.net/biolinks_api/elliot/1.jpg",
+          "title": "Elliot Alderson en acción"
+        },
+        {
+          "thumb": "https://orpot.net/biolinks_api/elliot/2.jpg",
+          "big": "https://orpot.net/biolinks_api/elliot/2.jpg",
+          "title": "Enfrentando desafíos"
+        },
+        {
+          "thumb": "https://orpot.net/biolinks_api/elliot/3.jpg",
+          "big": "https://orpot.net/biolinks_api/elliot/3.jpg",
+          "title": "Preparado para la lucha"
+        }
+      ]
+    }
+  ],
+  "styles": {
+        "backgroundBody": "#0c0c0c",
+        "backgroundImage": "https://orpot.net/biolinks_api/elliot/background.jpg",
+        "backgroundHero": "url(https://orpot.net/biolinks_api/elliot/hero.jpg)",
+        "backgroundProfile": "#ff1e1e",
+        "backgroundProfileShadow": "rgba(0, 0, 0, 0.8)",
+        "backgroundModal": "rgba(0, 0, 0, 0.9)",
+        "backgroundModalShadow": "rgba(0, 0, 0, 0.8)",
+        "fontTitle": "'Roboto', sans-serif",
+        "fontText": "'Roboto', sans-serif",
+        "buttonFontFamily": "'Roboto', sans-serif",
+        "buttonFontColor": "#ffffff",
+        "buttonFontSize": "1rem",
+        "buttonFontColorHover": "#ff1e1e",
+        "buttonBackground": "#000000",
+        "buttonBackgroundHover": "#1e1e1e",
+        "buttonBorder": "2px solid #ff1e1e",
+        "buttonBorderRadius": "5px",
+        "buttonStyles": "app--button app--button-link app--button-soft-shadow app--button-square"
+    }
+}
+,
+{
+  "id": 11,
+  "slug": "thom_yorke",
+  "profile": {
+    "username": "thomyorke",
+    "firstname": "Thom",
+    "lastname": "Yorke",
+    "card": "https://orpot.net/biolinks_api/thom/card.png",
+    "image": {
+      "big": "https://orpot.net/biolinks_api/thom/profile.jpg",
+      "thumb": "https://orpot.net/biolinks_api/thom/profile.jpg"
+    },
+    "about": {
+      "title": "Thom Yorke",
+      "subtitle": "Músico y Compositor",
+      "text": "<p>Thom Yorke es el líder de la banda Radiohead, conocido por su distintiva voz y su estilo musical único. Ha explorado una variedad de géneros musicales, desde el rock alternativo hasta la electrónica experimental.</p>"
+    },
+    "socialLinks": {
+      "title": "Sígueme",
+      "subtitle": "Conéctate conmigo en redes sociales",
+      "link": "",
+      "links": [
+        {
+          "name": "Facebook",
+          "value": "https://www.facebook.com/ThomYorkeOfficial",
+          "type": "social",
+          "username": "thomyorke",
+          "icon": "ion:logo-facebook"
+        },
+        {
+          "name": "Twitter",
+          "value": "https://x.com/thomyorke",
+          "type": "social",
+          "username": "thomyorke",
+          "icon": "ion:logo-twitter"
+        },
+        {
+          "name": "Instagram",
+          "value": "https://www.instagram.com/thomyorke/",
+          "type": "social",
+          "username": "thomyorke",
+          "icon": "ion:logo-instagram"
+        },
+        {
+          "name": "Website",
+          "value": "https://www.radiohead.com",
+          "type": "url",
+          "username": "thomyorke",
+          "icon": "ion:logo-website"
+        }
+      ]
+    }
+  },
+  "widgets": [
+    {
+      "type": 2,
+      "name": "spotify",
+      "icon": "hugeicons:spotify",
+      "id": 4,
+      "title": "Escucha mi música",
+      "image": "url(https://orpot.net/biolinks_api/thom/2.jpg)",
+      "message": "Disfruta de mi última creación",
+      "link": "https://open.spotify.com/embed/track/2Y0Kxmy7o8SNsMOZP9Kc5R?utm_source=generator",
+      "embed": "https://open.spotify.com/embed/track/2Y0Kxmy7o8SNsMOZP9Kc5R?utm_source=generator"
+    },
+    {
+      "id": 1,
+      "type": 1,
+      "name": "share",
+      "icon": "material-symbols-light:share-outline",
+      "image": "",
+      "title": "Comparte este enlace",
+      "message": "",
+      "link": "https://biolinks1.netlify.app/users/thom_yorke",
+      "links": [
+        {
+          "name": "Facebook",
+          "value": "https://facebook.com/thomyorke",
+          "type": "social",
+          "username": "thomyorke",
+          "icon": "ion:logo-facebook",
+          "share": "https://facebook.com/sharer/sharer.php?u=https://biolinks1.netlify.app/users/thom_yorke&quote=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/thom_yorke"
+        },
+        {
+          "name": "Twitter",
+          "value": "https://twitter.com/thomyorke",
+          "type": "social",
+          "username": "thomyorke",
+          "icon": "ion:logo-twitter",
+          "share": "https://twitter.com/intent/tweet?url=https://thomyorke.com&text=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/thom_yorke"
+        },
+        {
+          "name": "LinkedIn",
+          "value": "https://linkedin.com/in/thomyorke",
+          "type": "social",
+          "username": "thomyorke",
+          "icon": "ion:logo-linkedin",
+          "share": "https://www.linkedin.com/shareArticle?mini=true&url=https://biolinks1.netlify.app/users/thom_yorke&title=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/thom_yorke"
+        },
+        {
+          "name": "Instagram",
+          "value": "https://instagram.com/thomyorke",
+          "type": "social",
+          "username": "thomyorke",
+          "icon": "ion:logo-instagram",
+          "share": "https://www.instagram.com/?url=https://biolinks1.netlify.app/users/thom_yorke&caption=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/thom_yorke"
+        },
+        {
+          "name": "WhatsApp",
+          "value": "https://wa.me/",
+          "type": "social",
+          "username": "",
+          "icon": "ion:logo-whatsapp",
+          "share": "https://api.whatsapp.com/send?text=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/thom_yorke"
+        },
+        {
+          "name": "Snapchat",
+          "value": "https://www.snapchat.com/add/",
+          "type": "social",
+          "username": "",
+          "icon": "ion:logo-snapchat",
+          "share": "https://www.snapchat.com/add/"
+        },
+        {
+          "name": "Email",
+          "value": "mailto:",
+          "type": "email",
+          "username": "",
+          "icon": "ion:mail",
+          "share": "mailto:?subject=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/thom_yorke"
+        },
+        {
+          "name": "Pinterest",
+          "value": "https://www.pinterest.com/",
+          "type": "social",
+          "username": "",
+          "icon": "ion:logo-pinterest",
+          "share": "https://www.pinterest.com/pin/create/button/?url=https://biolinks1.netlify.app/users/thom_yorke&media=&description=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/thom_yorke"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "name": "post",
+      "icon": "material-symbols:post-outline",
+      "id": 5,
+      "title": "Un momento clave en mi carrera",
+      "image": "url(https://orpot.net/biolinks_api/thom/1.jpg)",
+      "message": "",
+      "content": "<p>Thom Yorke reflexiona sobre el proceso de creación de uno de los álbumes más influyentes de Radiohead, mostrando su evolución artística y el impacto en la música moderna.</p>",
+      "link": "https://en.wikipedia.org/wiki/Thom_Yorke",
+      "embed": ""
+    },
+    {
+      "type": 1,
+      "name": "post",
+      "icon": "material-symbols:post-outline",
+      "id": 6,
+      "title": "El legado de Thom Yorke",
+      "image": "url(https://orpot.net/biolinks_api/thom/2.jpg)",
+      "message": "",
+      "content": "<p>Thom Yorke continúa siendo una figura influyente en la música contemporánea, explorando nuevos sonidos y tecnologías mientras mantiene su integridad artística.</p>",
+      "link": "https://en.wikipedia.org/wiki/Thom_Yorke",
+      "embed": ""
+    },
+    {
+      "id": 3,
+      "type": 2,
+      "name": "gallery",
+      "icon": "mdi:view-gallery-outline",
+      "image": "url(https://orpot.net/biolinks_api/thom/1.jpg)",
+      "title": "Galería",
+      "message": "Explora mi galería",
+      "links": [],
+      "link": "",
+      "images": [
+        {
+          "thumb": "https://orpot.net/biolinks_api/thom/1.jpg",
+          "big": "https://orpot.net/biolinks_api/thom/1.jpg",
+          "title": "Thom Yorke en concierto"
+        },
+        {
+          "thumb": "https://orpot.net/biolinks_api/thom/2.jpg",
+          "big": "https://orpot.net/biolinks_api/thom/2.jpg",
+          "title": "Experimentando con sonidos"
+        },
+        {
+          "thumb": "https://orpot.net/biolinks_api/thom/3.jpg",
+          "big": "https://orpot.net/biolinks_api/thom/3.jpg",
+          "title": "Una vida dedicada a la música"
+        }
+      ]
+    }
+  ],
+  "styles": {
+     "backgroundBody": "#121212",
+      "backgroundImage": "https://orpot.net/biolinks_api/thom/background.jpg",
+      "backgroundHero": "url(https://orpot.net/biolinks_api/thom/thom-hero.jpg)",
+      "backgroundProfile": "#5A5A5A",
+      "backgroundProfileShadow": "rgba(0, 0, 0, 0.7)",
+      "backgroundModal": "rgba(18, 18, 18, 0.9)",
+      "backgroundModalShadow": "rgba(0, 0, 0, 0.8)",
+      "fontTitle": "'Lora', serif",
+      "fontText": "'Lora', serif",
+      "buttonFontFamily": "'Lora', serif",
+      "buttonFontColor": "#E5E5E5",
+      "buttonFontSize": "1rem",
+      "buttonFontColorHover": "#d32f2f",
+      "buttonBackground": "#323232",
+      "buttonBackgroundHover": "#494949",
+      "buttonBorder": "2px solid #d32f2f",
+      "buttonBorderRadius": "5px",
+      "buttonStyles": "app--button app--button-link app--button-soft-shadow app--button-square"
+  }
+}
+,
+{
+  "id": 12,
+  "slug": "roger_waters",
+  "profile": {
+    "username": "rogerwaters",
+    "firstname": "Roger",
+    "lastname": "Waters",
+    "card": "https://orpot.net/biolinks_api/roger/card.png",
+    "image": {
+      "big": "https://orpot.net/biolinks_api/roger/profile.jpg",
+      "thumb": "https://orpot.net/biolinks_api/roger/profile_thumb.jpg"
+    },
+    "about": {
+      "title": "Roger Waters",
+      "subtitle": "Músico y Compositor",
+      "text": "<p>Roger Waters es conocido como el cofundador y principal compositor de la icónica banda Pink Floyd. Su influencia en el rock progresivo y su estilo innovador han dejado una marca imborrable en la música.</p>"
+    },
+    "socialLinks": {
+      "title": "Sígueme",
+      "subtitle": "Conéctate conmigo en redes sociales",
+      "link": "",
+      "links": [
+        {
+          "name": "Facebook",
+          "value": "https://www.facebook.com/RogerWaters",
+          "type": "social",
+          "username": "rogerwaters",
+          "icon": "ion:logo-facebook"
+        },
+        {
+          "name": "Twitter",
+          "value": "https://x.com/rogerwaters",
+          "type": "social",
+          "username": "rogerwaters",
+          "icon": "ion:logo-twitter"
+        },
+        {
+          "name": "Instagram",
+          "value": "https://www.instagram.com/rogerwaters/",
+          "type": "social",
+          "username": "rogerwaters",
+          "icon": "ion:logo-instagram"
+        },
+        {
+          "name": "Website",
+          "value": "https://www.rogerwaters.com",
+          "type": "url",
+          "username": "rogerwaters",
+          "icon": "ion:logo-website"
+        }
+      ]
+    }
+  },
+  "widgets": [
+    {
+      "type": 2,
+      "name": "spotify",
+      "icon": "hugeicons:spotify",
+      "id": 7,
+      "title": "Escucha mi música",
+      "image": "url(https://orpot.net/biolinks_api/roger/2.jpg)",
+      "message": "Descubre mi última música",
+      "link": "https://open.spotify.com/embed/track/1XzQHc6ZlD0lcr7zEnCSk3?utm_source=generator",
+      "embed": "https://open.spotify.com/embed/track/1XzQHc6ZlD0lcr7zEnCSk3?utm_source=generator"
+    },
+    {
+      "id": 2,
+      "type": 1,
+      "name": "share",
+      "icon": "material-symbols-light:share-outline",
+      "image": "",
+      "title": "Comparte este enlace",
+      "message": "",
+      "link": "https://biolinks1.netlify.app/users/roger_waters",
+      "links": [
+        {
+          "name": "Facebook",
+          "value": "https://facebook.com/rogerwaters",
+          "type": "social",
+          "username": "rogerwaters",
+          "icon": "ion:logo-facebook",
+          "share": "https://facebook.com/sharer/sharer.php?u=https://biolinks1.netlify.app/users/roger_waters&quote=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/roger_waters"
+        },
+        {
+          "name": "Twitter",
+          "value": "https://twitter.com/rogerwaters",
+          "type": "social",
+          "username": "rogerwaters",
+          "icon": "ion:logo-twitter",
+          "share": "https://twitter.com/intent/tweet?url=https://rogerwaters.com&text=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/roger_waters"
+        },
+        {
+          "name": "LinkedIn",
+          "value": "https://linkedin.com/in/rogerwaters",
+          "type": "social",
+          "username": "rogerwaters",
+          "icon": "ion:logo-linkedin",
+          "share": "https://www.linkedin.com/shareArticle?mini=true&url=https://biolinks1.netlify.app/users/roger_waters&title=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/roger_waters"
+        },
+        {
+          "name": "Instagram",
+          "value": "https://instagram.com/rogerwaters",
+          "type": "social",
+          "username": "rogerwaters",
+          "icon": "ion:logo-instagram",
+          "share": "https://www.instagram.com/?url=https://biolinks1.netlify.app/users/roger_waters&caption=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/roger_waters"
+        },
+        {
+          "name": "WhatsApp",
+          "value": "https://wa.me/",
+          "type": "social",
+          "username": "",
+          "icon": "ion:logo-whatsapp",
+          "share": "https://api.whatsapp.com/send?text=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/roger_waters"
+        },
+        {
+          "name": "Snapchat",
+          "value": "https://www.snapchat.com/add/",
+          "type": "social",
+          "username": "",
+          "icon": "ion:logo-snapchat",
+          "share": "https://www.snapchat.com/add/"
+        },
+        {
+          "name": "Email",
+          "value": "mailto:",
+          "type": "email",
+          "username": "",
+          "icon": "ion:mail",
+          "share": "mailto:?subject=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/roger_waters"
+        },
+        {
+          "name": "Pinterest",
+          "value": "https://www.pinterest.com/",
+          "type": "social",
+          "username": "",
+          "icon": "ion:logo-pinterest",
+          "share": "https://www.pinterest.com/pin/create/button/?url=https://biolinks1.netlify.app/users/roger_waters&media=&description=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/roger_waters"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "name": "post",
+      "icon": "material-symbols:post-outline",
+      "id": 8,
+      "title": "Un momento clave en mi carrera",
+      "image": "url(https://orpot.net/biolinks_api/roger/1.jpg)",
+      "message": "",
+      "content": "<p>Roger Waters reflexiona sobre la creación del álbum 'The Wall', una obra maestra que definió una era en la historia del rock.</p>",
+      "link": "https://en.wikipedia.org/wiki/Roger_Waters",
+      "embed": ""
+    },
+    {
+      "type": 1,
+      "name": "post",
+      "icon": "material-symbols:post-outline",
+      "id": 9,
+      "title": "El legado de Roger Waters",
+      "image": "url(https://orpot.net/biolinks_api/roger/2.jpg)",
+      "message": "",
+      "content": "<p>Roger Waters sigue siendo una figura clave en la música contemporánea, conocido por sus letras provocativas y sus innovaciones en el escenario.</p>",
+      "link": "https://en.wikipedia.org/wiki/Roger_Waters",
+      "embed": ""
+    },
+    {
+      "id": 4,
+      "type": 2,
+      "name": "gallery",
+      "icon": "mdi:view-gallery-outline",
+      "image": "url(https://orpot.net/biolinks_api/roger/1.jpg)",
+      "title": "Galería",
+      "message": "Explora mi galería",
+      "links": [],
+      "link": "",
+      "images": [
+        {
+          "thumb": "https://orpot.net/biolinks_api/roger/1.jpg",
+          "big": "https://orpot.net/biolinks_api/roger/1.jpg",
+          "title": "Roger Waters en concierto"
+        },
+        {
+          "thumb": "https://orpot.net/biolinks_api/roger/2.jpg",
+          "big": "https://orpot.net/biolinks_api/roger/2.jpg",
+          "title": "Actuación en vivo"
+        },
+        {
+          "thumb": "https://orpot.net/biolinks_api/roger/3.jpg",
+          "big": "https://orpot.net/biolinks_api/roger/3.jpg",
+          "title": "Un legado musical"
+        }
+      ]
+    }
+  ],
+   "styles": {
+    "backgroundBody": "#0D0D0D",
+    "backgroundImage": "https://orpot.net/biolinks_api/roger/background.jpg",
+    "backgroundHero": "url(https://orpot.net/biolinks_api/roger/1.jpg)",
+    "backgroundProfile": "#1A1A1A",
+    "backgroundProfileShadow": "rgba(0, 0, 0, 0.8)",
+    "backgroundModal": "rgba(0, 0, 0, 0.9)",
+    "backgroundModalShadow": "rgba(0, 0, 0, 0.8)",
+    "fontTitle": "'Roboto', sans-serif",
+    "fontText": "'Roboto', sans-serif",
+    "buttonFontFamily": "'Roboto', sans-serif",
+    "buttonFontColor": "#E5E5E5",
+    "buttonFontSize": "1rem",
+    "buttonFontColorHover": "#F5C300",
+    "buttonBackground": "#2D2D2D",
+    "buttonBackgroundHover": "#3D3D3D",
+    "buttonBorder": "2px solid #F5C300",
+    "buttonBorderRadius": "5px",
+    "buttonStyles": "app--button app--button-link app--button-soft-shadow app--button-square"
+  
+  }
+}
+,
+{
+  "id": 1,
+  "slug": "jon_snow",
+  "profile": {
+
+    "username": "jon_snow",
+    "firstname": "Jon",
+    "lastname": "Snow",
+    "card":"https://orpot.net/biolinks_api/got.png",
+    "image": {
+      "big": "https://thronesapi.com/assets/images/jon-snow.jpg",
+      "thumb": "https://thronesapi.com/assets/images/jon-snow.jpg"
+    },
+    "about": {
+      "title": "Jon Snow",
+      "subtitle": "King in the North",
+      "text": "<p>Jon Snow, also known as Aegon Targaryen, is the son of Lyanna Stark and Rhaegar Targaryen. Raised as the bastard son of Eddard Stark, he eventually became the King in the North and a key figure in the battle against the Night King.</p>"
+    },
+    "socialLinks":{
+      "title": "Sigueme",
+      "subtitle": "Sigueme en mis redes sociales",
+      "link":"",
+      "links": [
+        {
+          "name": "Facebook",
+          "value": "https://facebook.com",
+          "type": "social",
+          "username": "orpotweb",
+          "icon": "ion:logo-facebook"
+        },
+        {
+          "name": "Twitter",
+          "value": "https://twitter.com",
+          "type": "social",
+          "username": "orpotweb",
+          "icon": "ion:logo-twitter"
+        },
+        {
+          "name": "LinkedIn",
+          "value": "https://linkedin.com",
+          "type": "social",
+          "username": "orpotweb",
+          "icon": "ion:logo-linkedin"
+        },
+        {
+          "name": "Instagram",
+          "value": "https://instagram.com",
+          "type": "social",
+          "username": "orpotweb",
+          "icon": "ion:logo-instagram"
+        },
+        {
+          "name": "Website",
+          "value": "https://biolinks1.netlify.app/users/",
+          "type": "url",
+          "username": "jon_snow",
+          "icon": "ion:logo-website"
+        }
+      ]
+    }
+  },
+  "widgets": [
+    {
+      "id": 1,
+      "type":1,
+       "name": "share", "icon":"material-symbols-light:share-outline",
+      "image":"",
+      "title": "Comparte este Link",
+      "message": "",
+      "link":"https://biolinks1.netlify.app/users/jon_snow",
+
+      "links": [
+        
+         {
+          "name": "Facebook",
+          "value": "https://facebook.com",
+          "type": "social",
+          "username": "orpotweb",
+          "icon": "ion:logo-facebook",
+           "share": "https://facebook.com/sharer/sharer.php?u=https://biolinks1.netlify.app/users/&quote=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/jon_snow"
+        },
+        {
+          "name": "Twitter",
+          "value": "https://twitter.com",
+          "type": "social",
+          "username": "orpotweb",
+          "icon": "ion:logo-twitter",
+           "share": "https://twitter.com/intent/tweet?url=https://biolinks1.netlify.app/users/&text=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/jon_snow"
+        },
+        {
+          "name": "LinkedIn",
+          "value": "https://linkedin.com",
+          "type": "social",
+          "username": "orpotweb",
+          "icon": "ion:logo-linkedin",
+          "share": "https://www.linkedin.com/shareArticle?mini=true&url=https://biolinks1.netlify.app/users/&title=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/jon_snow"
+        },
+        {
+          "name": "Instagram",
+          "value": "https://instagram.com",
+          "type": "social",
+          "username": "orpotweb",
+          "icon": "ion:logo-instagram",
+           "share": "https://www.instagram.com/?url=https://biolinks1.netlify.app/users/jon_snow&caption=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/jon_snow"
+        },
+        {
+            "name": "WhatsApp",
+            "value": "https://wa.me/",
+            "type": "social",
+            "username": "",
+            "icon": "ion:logo-whatsapp",
+            "share": "https://api.whatsapp.com/send?text=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/jon_snow"
+          },
+          {
+            "name": "Snapchat",
+            "value": "https://www.snapchat.com/add/",
+            "type": "social",
+            "username": "",
+            "icon": "ion:logo-snapchat",
+            "share": "https://www.snapchat.com/add/"
+          },
+          {
+            "name": "Email",
+            "value": "mailto:",
+            "type": "email",
+            "username": "",
+            "icon": "ion:mail",
+            "share": "mailto:?subject=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/jon_snow"
+          },
+          {
+            "name": "Pinterest",
+            "value": "https://www.pinterest.com/",
+            "type": "social",
+            "username": "",
+            "icon": "ion:logo-pinterest",
+            "share": "https://www.pinterest.com/pin/create/button/?url=https://biolinks1.netlify.app/users/&media=&description=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/jon_snow"
+          }
+      ]
+    },
+    
+    {
+      "type":2,
+      "name": "youtube", 
+      "icon":"mingcute:youtube-line",
+      "id": 5,
+      "title": "[Game Of Thrones] Jon snow in The Battle of Bastards - Best part",
+      "image": "url(https://i.ytimg.com/vi/O-O8Er94TJI/sddefault.jpg)",
+      "message": "[Game Of Thrones] Jon snow in The Battle of Bastards - Best part",
+      "link":"https://www.youtube.com/watch?v=O-O8Er94TJI",
+      "embed": "https://www.youtube.com/embed/O-O8Er94TJI?si=IUv5m_Ybck8WJm5z"
+    },
+
+    {
+      "type":1,
+      "name": "post", 
+      "icon":"iconoir:post-solid",
+      "id": 5,
+      "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae placerat justo",
+      "image":"url(https://orpot.net/biolinks_api/jon/3.jpg)",
+      "message":"",
+      "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae placerat justo, ac vulputate est. Sed ullamcorper maximus est, nec tincidunt ex tristique ut. Maecenas sollicitudin interdum tortor eget ultricies. Duis faucibus lectus ac mi luctus, quis euismod mauris facilisis. Nullam ut nibh nunc. Donec consequat placerat mauris, a fringilla urna rutrum quis. </p><p>Duis tristique est in luctus rutrum. Donec vel sem id arcu iaculis pulvinar. Vivamus eleifend magna id enim luctus, ac tincidunt dui sagittis. Integer mattis lacus ut est ultricies convallis. Mauris ultrices sollicitudin quam, nec vestibulum ex bibendum sit amet. Aenean mollis, felis condimentum viverra suscipit, massa ante vehicula urna, luctus tempus mi ligula in ex.</p>",
+      "link":"https://es.wikipedia.org/wiki/Jon_Nieve",
+      "embed": ""
+    },
+    {
+      "type":1,
+      "name": "post", 
+      "icon":"material-symbols:post-outline",
+      "id": 6,
+      "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae placerat justo",
+      "image":"url(https://orpot.net/biolinks_api/jon/3.jpg)",
+      "message":"",
+      "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae placerat justo, ac vulputate est. Sed ullamcorper maximus est, nec tincidunt ex tristique ut. Maecenas sollicitudin interdum tortor eget ultricies. Duis faucibus lectus ac mi luctus, quis euismod mauris facilisis. Nullam ut nibh nunc. Donec consequat placerat mauris, a fringilla urna rutrum quis. </p><p>Duis tristique est in luctus rutrum. Donec vel sem id arcu iaculis pulvinar. Vivamus eleifend magna id enim luctus, ac tincidunt dui sagittis. Integer mattis lacus ut est ultricies convallis. Mauris ultrices sollicitudin quam, nec vestibulum ex bibendum sit amet. Aenean mollis, felis condimentum viverra suscipit, massa ante vehicula urna, luctus tempus mi ligula in ex.</p>",
+      "link":"https://es.wikipedia.org/wiki/Jon_Nieve",
+      "embed": ""
+    },
+    {
+      "id": 3,
+      "type":2,
+      "name": "gallery", "icon":"mdi:view-gallery-outline",
+      "image":"url(https://orpot.net/biolinks_api/jon/1.jpg)",
+      "title": "Galería",
+      "message": "Comparte mi galería",
+      "links": [],
+      "link":"",
+      "images": [
+        {
+          "thumb": "https://orpot.net/biolinks_api/jon/1.jpg",
+          "big": "https://orpot.net/biolinks_api/jon/1.jpg",
+          "title": "The King of the North"
+        },
+        {
+          "thumb": "https://orpot.net/biolinks_api/jon/2.jpg",
+          "big": "https://orpot.net/biolinks_api/jon/2.jpg",
+          "title": "The King of the North"
+        },
+        {
+          "thumb": "https://orpot.net/biolinks_api/jon/3.jpg",
+          "big": "https://orpot.net/biolinks_api/jon/3.jpg",
+          "title": "The King of the North"
+        },
+        {
+          "thumb": "https://orpot.net/biolinks_api/jon/4.jpg",
+          "big": "https://orpot.net/biolinks_api/jon/4.jpg",
+          "title": "The King of the North"
+        },
+        {
+          "thumb": "https://orpot.net/biolinks_api/jon/5.jpg",
+          "big": "https://orpot.net/biolinks_api/jon/5.jpg",
+          "title": "The King of the North"
+        }
+      ]
+    },
+    {
+      "type":2,
+      "name": "spotify", "icon":"hugeicons:spotify",
+      "id": 4,
+      "title": "Escucha mi música",
+      "image":"url(https://orpot.net/biolinks_api/jon/3.jpg)",
+      "message": "Este es un nuevo tema de mi álbum",
+      "link":"https://open.spotify.com/embed/track/2kd0T6zgABT8P0s2h9QU5O?utm_source=generato",
+      "embed": "https://open.spotify.com/embed/track/2kd0T6zgABT8P0s2h9QU5O?utm_source=generator"
+    }
+  ],
+  "styles": {
+    "backgroundBody": "#1c1c1c",
+    "backgroundImage": "https://orpot.net/biolinks_api/jon/1.jpg",
+    "backgroundHero": "url(https://orpot.net/biolinks_api/jon/1.jpg)",
+    "backgroundProfile": "#333333",
+    "backgroundProfileShadow": "rgba(0, 0, 0, 0.5)",
+    "backgroundModal": "rgba(0, 0, 0, 0.75)",
+    "backgroundModalShadow": "rgba(0, 0, 0, 0.5)",
+    "fontTitle": "'Playfair Display', serif",
+    "fontText": "'Playfair Display', serif",
+    "buttonFontFamily":"'Playfair Display', serif",
+    "buttonFontColor": "#ffffff",
+    "buttonFontSize": "1rem",
+    "buttonFontColorHover": "#d0d0d0",
+    "buttonBackground": "#333333",
+    "buttonBackgroundHover": "#1c1c1c",
+    "buttonBorder": "2px solid #555555",
+    "buttonBorderRadius": "5px",
+    "buttonStyles": "app--button app--button-link app--button-soft-shadow app--button-circle"
+  }
+},
+{
+  "id": 2,
+  "slug": "daenerys_targaryen",
+  "profile": {
+    "username": "daenerys_targaryen",
+    "firstname": "Daenerys",
+    "lastname": "Targaryen",
+    "card":"https://orpot.net/biolinks_api/got.png",
+    "image": {
+      "big": "https://thronesapi.com/assets/images/daenerys.jpg",
+      "thumb": "https://thronesapi.com/assets/images/daenerys.jpg"
+    },
+    "about": {
+      "title": "Daenerys Targaryen",
+      "subtitle": "Mother of Dragons",
+      "text": "<p>Daenerys Targaryen, also known as Dany, is the last surviving member of the Targaryen dynasty. She is determined to reclaim the Iron Throne and restore her family to power, with her dragons as her primary weapon.</p>"
+    },
+    "socialLinks": {
+      "title": "Sigueme",
+      "subtitle": "Sigueme en mis redes sociales",
+      "link": "https://biolinks1.netlify.app/users/daenerys_targaryen",
+      "links": [
+        {
+          "name": "Facebook",
+          "value": "https://www.facebook.com/TheDaenerysTargaryen/?locale=es_LA",
+          "type": "social",
+          "username": "daenerys_targaryen",
+          "icon": "ion:logo-facebook"
+        },
+        {
+          "name": "Twitter",
+          "value": "https://x.com/daenerys?lang=es",
+          "type": "social",
+          "username": "daenerys_targaryen",
+          "icon": "ion:logo-twitter"
+        },
+        {
+          "name": "LinkedIn",
+          "value": "https://linkedin.com",
+          "type": "social",
+          "username": "daenerys_targaryen",
+          "icon": "ion:logo-linkedin"
+        },
+        {
+          "name": "Instagram",
+          "value": "https://www.instagram.com/emilia_clarke/?hl=es",
+          "type": "social",
+          "username": "daenerys_targaryen",
+          "icon": "ion:logo-instagram"
+        },
+        {
+          "name": "Website",
+          "value": "https://awoiaf.westeros.org/index.php/Daenerys_Targaryen",
+          "type": "url",
+          "username": "daenerys_targaryen",
+          "icon": "ion:logo-website"
+        }
+      ]
+    }
+  },
+  "widgets": [
+    {
+      "id": 1,
+      "type": 1,
+       "name": "share", "icon":"material-symbols-light:share-outline",
+      "image": "",
+      "title": "Comparte este Link",
+      "message": "",
+      "link": "",
+      "links": [
+         {
+          "name": "Facebook",
+          "value": "https://facebook.com",
+          "type": "social",
+          "username": "orpotweb",
+          "icon": "ion:logo-facebook",
+           "share": "https://facebook.com/sharer/sharer.php?u=https://biolinks1.netlify.app/users/daenerys_targaryen&quote=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/daenerys_targaryen"
+        },
+        {
+          "name": "Twitter",
+          "value": "https://twitter.com",
+          "type": "social",
+          "username": "orpotweb",
+          "icon": "ion:logo-twitter",
+           "share": "https://twitter.com/intent/tweet?url=https://biolinks1.netlify.app/users/daenerys_targaryen&text=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/daenerys_targaryen"
+        },
+        {
+          "name": "LinkedIn",
+          "value": "https://linkedin.com",
+          "type": "social",
+          "username": "orpotweb",
+          "icon": "ion:logo-linkedin",
+          "share": "https://www.linkedin.com/shareArticle?mini=true&url=https://biolinks1.netlify.app/users/daenerys_targaryen&title=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/daenerys_targaryen"
+        },
+        {
+          "name": "Instagram",
+          "value": "https://instagram.com",
+          "type": "social",
+          "username": "orpotweb",
+          "icon": "ion:logo-instagram",
+           "share": "https://www.instagram.com/?url=https://biolinks1.netlify.app/users/daenerys_targaryen&caption=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/daenerys_targaryen"
+        },
+        {
+            "name": "WhatsApp",
+            "value": "https://wa.me/",
+            "type": "social",
+            "username": "",
+            "icon": "ion:logo-whatsapp",
+            "share": "https://api.whatsapp.com/send?text=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/daenerys_targaryen"
+          },
+          {
+            "name": "Snapchat",
+            "value": "https://www.snapchat.com/add/",
+            "type": "social",
+            "username": "",
+            "icon": "ion:logo-snapchat",
+            "share": "https://www.snapchat.com/add/"
+          },
+          {
+            "name": "Email",
+            "value": "mailto:",
+            "type": "email",
+            "username": "",
+            "icon": "ion:mail",
+            "share": "mailto:?subject=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/daenerys_targaryen"
+          },
+          {
+            "name": "Pinterest",
+            "value": "https://www.pinterest.com/",
+            "type": "social",
+            "username": "",
+            "icon": "ion:logo-pinterest",
+            "share": "https://www.pinterest.com/pin/create/button/?url=https://biolinks1.netlify.app/users/daenerys_targaryen&media=&description=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/daenerys_targaryen"
+          }
+      ]
+    },
+    {
+      "id": 3,
+      "type": 2,
+      "name": "gallery", "icon":"mdi:view-gallery-outline",
+      "image": "url(https://orpot.net/biolinks_api/daenerys/1.jpg)",
+      "title": "Galería",
+      "message": "Comparte mi galería",
+      "links": [],
+      "link": "https://biolinks1.netlify.app/users/daenerys_targaryen",
+      "images": [
+        {
+          "thumb": "https://orpot.net/biolinks_api/daenerys/1.jpg",
+          "big": "https://orpot.net/biolinks_api/daenerys/1.jpg",
+          "title": "The Dragon Queen"
+        },
+        {
+          "thumb": "https://orpot.net/biolinks_api/daenerys/2.jpg",
+          "big": "https://orpot.net/biolinks_api/daenerys/2.jpg",
+          "title": "The Dragon Queen"
+        },
+        {
+          "thumb": "https://orpot.net/biolinks_api/daenerys/3.jpg",
+          "big": "https://orpot.net/biolinks_api/daenerys/3.jpg",
+          "title": "The Dragon Queen"
+        },
+        {
+          "thumb": "https://orpot.net/biolinks_api/daenerys/4.jpg",
+          "big": "https://orpot.net/biolinks_api/daenerys/4.jpg",
+          "title": "The Dragon Queen"
+        },
+        {
+          "thumb": "https://orpot.net/biolinks_api/daenerys/5.jpg",
+          "big": "https://orpot.net/biolinks_api/daenerys/5.jpg",
+          "title": "The Dragon Queen"
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "name": "spotify", "icon":"hugeicons:spotify",
+      "id": 4,
+      "title": "Escucha mi música",
+      "image": "url(https://orpot.net/biolinks_api/daenerys/3.jpg)",
+      "message": "Este es un nuevo tema de mi álbum",
+      "link": "https://open.spotify.com/embed/track/2kd0T6zgABT8P0s2h9QU5O?utm_source=generato",
+      "embed": "https://open.spotify.com/embed/track/2kd0T6zgABT8P0s2h9QU5O?utm_source=generator"
+    },
+    {
+      "type": 2,
+      "name": "youtube", "icon":"mingcute:youtube-line",
+      "id": 5,
+      "title": "Daenerys Targaryen - La Reina",
+      "image": "url(https://i.ytimg.com/vi/7I4LUKNwlyY/sddefault.jpg)",
+      "message": "Daenerys Targaryen - La Reina",
+      "link": "https://www.youtube.com/watch?v=7I4LUKNwlyY",
+      "embed": "https://www.youtube.com/embed/7I4LUKNwlyY?si=2HeHxJr4euhdBVP"
+    }
+  ],
+   "styles": {
+    "backgroundBody": "#D9561F",
+    "backgroundImage": "",
+    "backgroundHero": "url(https://orpot.net/biolinks_api/daenerys/1.jpg)",
+    "backgroundProfile": "#D9561F",
+    "backgroundProfileShadow": "",
+    "backgroundModal": "rgba(0, 0, 0, 0.50)",
+    "backgroundModalShadow": "",
+    "fontTitle": "'Lora', sans-serif",
+    "fontText": "Lora",
+    "buttonFontFamily": "'Lora',sans-serif",
+    "buttonFontColor": "#ffffff",
+    "buttonFontSize": "1rem",
+    "buttonFontColorHover": "#ffcc00",
+    "buttonBackground": "#d32f2f",
+    "buttonBackgroundHover": "#b71c1c",
+    "buttonBorder": "2px solid #f57f17",
+    "buttonBorderRadius": "5px",
+    "buttonStyles": "app--button app--button-link   app--button-circle"
+  }
+},
+{
+  "id": 3,
+  "slug": "arya_stark",
+  "profile": {
+    "username": "arya_stark",
+    "firstname": "Arya",
+    "lastname": "Stark",
+    "card":"https://orpot.net/biolinks_api/got.png",
+    "image": {
+      "big": "https://thronesapi.com/assets/images/arya-stark.jpg",
+      "thumb": "https://thronesapi.com/assets/images/arya-stark.jpg"
+    },
+    "about": {
+      "title": "Arya Stark",
+      "subtitle": "The Faceless Assassin",
+      "text": "<p>Arya Stark is the youngest daughter of Eddard Stark. Trained in the art of assassination by the Faceless Men, she seeks vengeance for her family and has become one of the most skilled fighters in Westeros.</p>"
+    },
+    "socialLinks": {
+      "title": "Sigueme",
+      "subtitle": "Sigueme en mis redes sociales",
+      "link": "https://biolinks1.netlify.app/users/arya_stark",
+      "links": [
+        {
+          "name": "Facebook",
+          "value": "https://www.facebook.com/AryaStarkFan/?locale=es_LA",
+          "type": "social",
+          "username": "arya_stark",
+          "icon": "ion:logo-facebook"
+        },
+        {
+          "name": "Twitter",
+          "value": "https://twitter.com/arya_stark__",
+          "type": "social",
+          "username": "arya_stark",
+          "icon": "ion:logo-twitter"
+        },
+        {
+          "name": "LinkedIn",
+          "value": "https://www.linkedin.com/in/arya-stark-6900081a1",
+          "type": "social",
+          "username": "arya_stark",
+          "icon": "ion:logo-linkedin"
+        },
+        {
+          "name": "Instagram",
+          "value": "https://www.instagram.com/maisie_williams/",
+          "type": "social",
+          "username": "arya_stark",
+          "icon": "ion:logo-instagram"
+        },
+        {
+          "name": "Website",
+          "value": "https://awoiaf.westeros.org/index.php/Arya_Stark",
+          "type": "url",
+          "username": "arya_stark",
+          "icon": "ion:logo-website"
+        }
+      ]
+    }
+  },
+  "widgets": [
+    {
+      "id": 1,
+      "type": 1,
+       "name": "share", "icon":"material-symbols-light:share-outline",
+      "image": "",
+      "title": "Comparte este Link",
+      "message": "",
+      "link": "",
+        "links": [
+         {
+          "name": "Facebook",
+          "value": "https://facebook.com",
+          "type": "social",
+          "username": "orpotweb",
+          "icon": "ion:logo-facebook",
+           "share": "https://facebook.com/sharer/sharer.php?u=https://biolinks1.netlify.app/users/arya_stark&quote=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/arya_stark"
+        },
+        {
+          "name": "Twitter",
+          "value": "https://twitter.com",
+          "type": "social",
+          "username": "orpotweb",
+          "icon": "ion:logo-twitter",
+           "share": "https://twitter.com/intent/tweet?url=https://biolinks1.netlify.app/users/arya_stark&text=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/arya_stark"
+        },
+        {
+          "name": "LinkedIn",
+          "value": "https://linkedin.com",
+          "type": "social",
+          "username": "orpotweb",
+          "icon": "ion:logo-linkedin",
+          "share": "https://www.linkedin.com/shareArticle?mini=true&url=https://biolinks1.netlify.app/users/arya_stark&title=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/arya_stark"
+        },
+        {
+          "name": "Instagram",
+          "value": "https://instagram.com",
+          "type": "social",
+          "username": "orpotweb",
+          "icon": "ion:logo-instagram",
+           "share": "https://www.instagram.com/?url=https://biolinks1.netlify.app/users/arya_stark&caption=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/arya_stark"
+        },
+        {
+            "name": "WhatsApp",
+            "value": "https://wa.me/",
+            "type": "social",
+            "username": "",
+            "icon": "ion:logo-whatsapp",
+            "share": "https://api.whatsapp.com/send?text=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/arya_stark"
+          },
+          {
+            "name": "Snapchat",
+            "value": "https://www.snapchat.com/add/",
+            "type": "social",
+            "username": "",
+            "icon": "ion:logo-snapchat",
+            "share": "https://www.snapchat.com/add/"
+          },
+          {
+            "name": "Email",
+            "value": "mailto:",
+            "type": "email",
+            "username": "",
+            "icon": "ion:mail",
+            "share": "mailto:?subject=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/arya_stark"
+          },
+          {
+            "name": "Pinterest",
+            "value": "https://www.pinterest.com/",
+            "type": "social",
+            "username": "",
+            "icon": "ion:logo-pinterest",
+            "share": "https://www.pinterest.com/pin/create/button/?url=https://biolinks1.netlify.app/users/arya_stark&media=&description=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/arya_stark"
+          }
+      ]
+    },
+    {
+      "id": 3,
+      "type": 2,
+      "name": "gallery", "icon":"mdi:view-gallery-outline",
+      "image": "url(https://orpot.net/biolinks_api/arya/1.jpg)",
+      "title": "Galería",
+      "message": "Comparte mi galería",
+      "links": [],
+      "link": "",
+      "images": [
+        {
+          "thumb": "https://orpot.net/biolinks_api/arya/1.jpg",
+          "big": "https://orpot.net/biolinks_api/arya/1.jpg",
+          "title": "The Faceless Assassin"
+        },
+        {
+          "thumb": "https://orpot.net/biolinks_api/arya/2.jpg",
+          "big": "https://orpot.net/biolinks_api/arya/2.jpg",
+          "title": "The Faceless Assassin"
+        },
+        {
+          "thumb": "https://orpot.net/biolinks_api/arya/3.jpg",
+          "big": "https://orpot.net/biolinks_api/arya/3.jpg",
+          "title": "The Faceless Assassin"
+        },
+        {
+          "thumb": "https://orpot.net/biolinks_api/arya/4.jpg",
+          "big": "https://orpot.net/biolinks_api/arya/4.jpg",
+          "title": "The Faceless Assassin"
+        },
+        {
+          "thumb": "https://orpot.net/biolinks_api/arya/5.jpg",
+          "big": "https://orpot.net/biolinks_api/arya/5.jpg",
+          "title": "The Faceless Assassin"
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "name": "spotify", "icon":"hugeicons:spotify",
+      "id": 4,
+      "title": "Escucha mi música",
+      "image": "url(https://orpot.net/biolinks_api/arya/3.jpg)",
+      "message": "Este es un nuevo tema de mi álbum",
+      "link": "https://open.spotify.com/embed/track/2kd0T6zgABT8P0s2h9QU5O?utm_source=generato",
+      "embed": "https://open.spotify.com/embed/track/2kd0T6zgABT8P0s2h9QU5O?utm_source=generator"
+    },
+    {
+      "type": 1,
+      "name": "youtube", "icon":"mingcute:youtube-line",
+      "id": 5,
+      "title": "Arya Stark Fights Brienne of Tarth | Game of Thrones | Max",
+      "message": "Arya Stark Fights Brienne of Tarth | Game of Thrones | Max",
+      "link": "https://www.youtube.com/watch?v=aA5FgDdRwHI",
+      "embed": "https://www.youtube.com/embed/aA5FgDdRwHI?si=X7NCqMTJnEzuRZmM"
+    }
+  ],
+   "styles": {
+    "backgroundBody": "#4a4a4a",
+    "backgroundImage": "https://orpot.net/biolinks_api/arya/1.jpg",
+    "backgroundHero": "url(https://orpot.net/biolinks_api/arya/1.jpg)",
+    "backgroundProfile": "#3b3b3b",
+    "backgroundProfileShadow": "rgba(0, 0, 0, 0.6)",
+    "backgroundModal": "rgba(0, 0, 0, 0.75)",
+    "backgroundModalShadow": "rgba(0, 0, 0, 0.5)",
+    "fontTitle": "'New Amsterdam', serif",
+    "fontText": "'New Amsterdam', serif",
+    "buttonFontFamily": "'New Amsterdam', serif",
+    "buttonFontColor": "#ffffff",
+    "buttonFontSize": "1rem",
+    "buttonFontColorHover": "#f0e5d8",
+    "buttonBackground": "#6a1b2a",
+    "buttonBackgroundHover": "#4b0e1a",
+    "buttonBorder": "2px solid #a84d6e",
+    "buttonBorderRadius": "8px",
+    "buttonStyles": "app--button app--button-link app--button-soft-shadow app--button-rounded"
+  }
+},
+{
+  "id": 4,
+  "slug": "cersei_lannister",
+  "profile": {
+    "username": "cersei_lannister",
+    "firstname": "Cersei",
+    "lastname": "Lannister",
+    "card":"https://orpot.net/biolinks_api/got.png",
+    "image": {
+      "big": "https://thronesapi.com/assets/images/cersei.jpg",
+      "thumb": "https://thronesapi.com/assets/images/cersei.jpg"
+    },
+    "about": {
+      "title": "Cersei Lannister",
+      "subtitle": "Queen of the Seven Kingdoms",
+      "text": "<p>Cersei Lannister is the daughter of Tywin Lannister and the twin sister of Jaime Lannister. Known for her cunning and ruthlessness, she became the Queen of the Seven Kingdoms and a powerful force in the realm.</p>"
+    },
+    "socialLinks": {
+      "title": "Sigueme",
+      "subtitle": "Sigueme en mis redes sociales",
+      "link": "https://biolinks1.netlify.app/users/cersei_lannister",
+      "links": [
+        {
+          "name": "Facebook",
+          "value": "https://www.facebook.com/CerseiLannistersherself/?locale=es_LA",
+          "type": "social",
+          "username": "cersei_lannister",
+          "icon": "ion:logo-facebook"
+        },
+        {
+          "name": "Twitter",
+          "value": "https://x.com/cersei_lanni?lang=es",
+          "type": "social",
+          "username": "cersei_lannister",
+          "icon": "ion:logo-twitter"
+        },
+        {
+          "name": "LinkedIn",
+          "value": "https://linkedin.com",
+          "type": "social",
+          "username": "cersei_lannister",
+          "icon": "ion:logo-linkedin"
+        },
+        {
+          "name": "Instagram",
+          "value": "https://www.instagram.com/iamlenaheadey/?hl=es",
+          "type": "social",
+          "username": "cersei_lannister",
+          "icon": "ion:logo-instagram"
+        },
+        {
+          "name": "Website",
+          "value": "https://gameofthrones.fandom.com/wiki/Cersei_Lannister",
+          "type": "url",
+          "username": "cersei_lannister",
+          "icon": "ion:logo-website"
+        }
+      ]
+    }
+  },
+  "widgets": [
+    {
+      "id": 1,
+      "type": 1,
+       "name": "share", "icon":"material-symbols-light:share-outline",
+      "image": "",
+      "title": "Comparte este Link",
+      "message": "",
+      "link": "",
+        "links": [
+         {
+          "name": "Facebook",
+          "value": "https://facebook.com",
+          "type": "social",
+          "username": "orpotweb",
+          "icon": "ion:logo-facebook",
+           "share": "https://facebook.com/sharer/sharer.php?u=https://biolinks1.netlify.app/users/cersei_lannister&quote=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/cersei_lannister"
+        },
+        {
+          "name": "Twitter",
+          "value": "https://twitter.com",
+          "type": "social",
+          "username": "orpotweb",
+          "icon": "ion:logo-twitter",
+           "share": "https://twitter.com/intent/tweet?url=https://biolinks1.netlify.app/users/cersei_lannister&text=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/cersei_lannister"
+        },
+        {
+          "name": "LinkedIn",
+          "value": "https://linkedin.com",
+          "type": "social",
+          "username": "orpotweb",
+          "icon": "ion:logo-linkedin",
+          "share": "https://www.linkedin.com/shareArticle?mini=true&url=https://biolinks1.netlify.app/users/cersei_lannister&title=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/cersei_lannister"
+        },
+        {
+          "name": "Instagram",
+          "value": "https://instagram.com",
+          "type": "social",
+          "username": "orpotweb",
+          "icon": "ion:logo-instagram",
+           "share": "https://www.instagram.com/?url=https://biolinks1.netlify.app/users/cersei_lannister&caption=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/cersei_lannister"
+        },
+        {
+            "name": "WhatsApp",
+            "value": "https://wa.me/",
+            "type": "social",
+            "username": "",
+            "icon": "ion:logo-whatsapp",
+            "share": "https://api.whatsapp.com/send?text=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/cersei_lannister"
+          },
+          {
+            "name": "Snapchat",
+            "value": "https://www.snapchat.com/add/",
+            "type": "social",
+            "username": "",
+            "icon": "ion:logo-snapchat",
+            "share": "https://www.snapchat.com/add/"
+          },
+          {
+            "name": "Email",
+            "value": "mailto:",
+            "type": "email",
+            "username": "",
+            "icon": "ion:mail",
+            "share": "mailto:?subject=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/cersei_lannister"
+          },
+          {
+            "name": "Pinterest",
+            "value": "https://www.pinterest.com/",
+            "type": "social",
+            "username": "",
+            "icon": "ion:logo-pinterest",
+            "share": "https://www.pinterest.com/pin/create/button/?url=https://biolinks1.netlify.app/users/cersei_lannister&media=&description=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/cersei_lannister"
+          }
+      ]
+    },
+    {
+      "id": 3,
+      "type": 2,
+      "name": "gallery", "icon":"mdi:view-gallery-outline",
+      "image": "url(https://orpot.net/biolinks_api/cersei/1.jpg)",
+      "title": "Galería",
+      "message": "Comparte mi galería",
+      "links": [],
+      "link": "",
+      "images": [
+        {
+          "thumb": "https://orpot.net/biolinks_api/cersei/1.jpg",
+          "big": "https://orpot.net/biolinks_api/cersei/1.jpg",
+          "title": "The Queen of the Seven Kingdoms"
+        },
+        {
+          "thumb": "https://orpot.net/biolinks_api/cersei/2.jpg",
+          "big": "https://orpot.net/biolinks_api/cersei/2.jpg",
+          "title": "The Queen of the Seven Kingdoms"
+        },
+        {
+          "thumb": "https://orpot.net/biolinks_api/cersei/3.jpg",
+          "big": "https://orpot.net/biolinks_api/cersei/3.jpg",
+          "title": "The Queen of the Seven Kingdoms"
+        },
+        {
+          "thumb": "https://orpot.net/biolinks_api/cersei/4.jpg",
+          "big": "https://orpot.net/biolinks_api/cersei/4.jpg",
+          "title": "The Queen of the Seven Kingdoms"
+        },
+        {
+          "thumb": "https://orpot.net/biolinks_api/cersei/5.jpg",
+          "big": "https://orpot.net/biolinks_api/cersei/5.jpg",
+          "title": "The Queen of the Seven Kingdoms"
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "name": "spotify", "icon":"hugeicons:spotify",
+      "id": 4,
+      "title": "Escucha mi música",
+      "image": "url(https://orpot.net/biolinks_api/cersei/3.jpg)",
+      "message": "Este es un nuevo tema de mi álbum",
+      "link": "https://open.spotify.com/embed/track/2kd0T6zgABT8P0s2h9QU5O?utm_source=generato",
+      "embed": "https://open.spotify.com/embed/track/2kd0T6zgABT8P0s2h9QU5O?utm_source=generator"
+    },
+    {
+      "type": 2,
+      "name": "youtube", "icon":"mingcute:youtube-line",
+      "id": 5,
+      "title": "Cersei's Best Moments",
+      "image": "url(https://i.ytimg.com/vi/z9LEQ3BbugM/sddefault.jpg)",
+      "message": "Cersei's Best Moments",
+      "link": "https://www.youtube.com/watch?v=z9LEQ3BbugM&t=145s",
+      "embed": "https://www.youtube.com/embed/z9LEQ3BbugM?si=QRgDTYQqFqMBPFmw"
+    }
+  ],
+    "styles": {
+    "backgroundBody": "#3d3d3d",
+    "backgroundImage": "",
+    "backgroundHero": "url(https://orpot.net/biolinks_api/cersei/1.jpg)",
+    "backgroundProfile": "#1c1c1c",
+    "backgroundProfileShadow": "rgba(0, 0, 0, 0.7)",
+    "backgroundModal": "rgba(0, 0, 0, 0.85)",
+    "backgroundModalShadow": "rgba(0, 0, 0, 0.6)",
+    "fontTitle": "'DM Serif Text', serif",
+    "fontText": "'DM Serif Text', serif",
+    "buttonFontFamily": "'DM Serif Text', serif",
+    "buttonFontColor": "#ffffff",
+    "buttonFontSize": "1rem",
+    "buttonFontColorHover": "#f5b300",
+    "buttonBackground": "#7d1d1d",
+    "buttonBackgroundHover": "#5a1414",
+    "buttonBorder": "2px solid #c0c0c0",
+    "buttonBorderRadius": "4px",
+    "buttonStyles": "app--button app--button-link app--button-soft-shadow app--button-rounded"
+  }
+}
+,
+{
+  "id": 5,
+  "slug": "jaime_lannister",
+  "profile": {
+    "username": "jaime_lannister",
+    "firstname": "Jaime",
+    "lastname": "Lannister",
+    "card":"https://orpot.net/biolinks_api/got.png",
+    "image": {
+      "big": "https://thronesapi.com/assets/images/jaime-lannister.jpg",
+      "thumb": "https://thronesapi.com/assets/images/jaime-lannister.jpg"
+    },
+    "about": {
+      "title": "Jaime Lannister",
+      "subtitle": "The Kingslayer",
+      "text": "<p>Jaime Lannister, known as the Kingslayer, is the eldest son of Tywin Lannister and the twin brother of Cersei Lannister. A skilled knight and warrior, he is known for his controversial actions and complex character.</p>"
+    },
+    "socialLinks": {
+      "title": "Sigueme",
+      "subtitle": "Sigueme en mis redes sociales",
+      "link": "https://biolinks1.netlify.app/users/jaime_lannister",
+      "links": [
+        {
+          "name": "Facebook",
+          "value": "https://www.facebook.com/dtiosio/?locale=es_LA",
+          "type": "social",
+          "username": "jaime_lannister",
+          "icon": "ion:logo-facebook"
+        },
+        {
+          "name": "Twitter",
+          "value": "https://x.com/jaimegoldlanni?lang=es",
+          "type": "social",
+          "username": "jaime_lannister",
+          "icon": "ion:logo-twitter"
+        },
+        {
+          "name": "LinkedIn",
+          "value": "https://www.linkedin.com/in/jaime-lannister-7b0ba02a1/",
+          "type": "social",
+          "username": "jaime_lannister",
+          "icon": "ion:logo-linkedin"
+        },
+        {
+          "name": "Instagram",
+          "value": "https://www.instagram.com/nikolajwilliamcw/?hl=es",
+          "type": "social",
+          "username": "jaime_lannister",
+          "icon": "ion:logo-instagram"
+        },
+        {
+          "name": "Website",
+          "value": "https://awoiaf.westeros.org/index.php/Jaime_Lannister",
+          "type": "url",
+          "username": "jaime_lannister",
+          "icon": "ion:logo-website"
+        }
+      ]
+    }
+  },
+  "widgets": [
+    {
+      "id": 1,
+      "type": 1,
+       "name": "share", "icon":"material-symbols-light:share-outline",
+      "image": "",
+      "title": "Comparte este Link",
+      "message": "",
+      "link": "",
+        "links": [
+         {
+          "name": "Facebook",
+          "value": "https://facebook.com",
+          "type": "social",
+          "username": "orpotweb",
+          "icon": "ion:logo-facebook",
+           "share": "https://facebook.com/sharer/sharer.php?u=https://biolinks1.netlify.app/users/jaime_lannister&quote=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/jaime_lannister"
+        },
+        {
+          "name": "Twitter",
+          "value": "https://twitter.com",
+          "type": "social",
+          "username": "orpotweb",
+          "icon": "ion:logo-twitter",
+           "share": "https://twitter.com/intent/tweet?url=https://biolinks1.netlify.app/users/jaime_lannister&text=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/jaime_lannister"
+        },
+        {
+          "name": "LinkedIn",
+          "value": "https://linkedin.com",
+          "type": "social",
+          "username": "orpotweb",
+          "icon": "ion:logo-linkedin",
+          "share": "https://www.linkedin.com/shareArticle?mini=true&url=https://biolinks1.netlify.app/users/jaime_lannister&title=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/jaime_lannister"
+        },
+        {
+          "name": "Instagram",
+          "value": "https://instagram.com",
+          "type": "social",
+          "username": "orpotweb",
+          "icon": "ion:logo-instagram",
+           "share": "https://www.instagram.com/?url=https://biolinks1.netlify.app/users/jaime_lannister&caption=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/jaime_lannister"
+        },
+        {
+            "name": "WhatsApp",
+            "value": "https://wa.me/",
+            "type": "social",
+            "username": "",
+            "icon": "ion:logo-whatsapp",
+            "share": "https://api.whatsapp.com/send?text=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/jaime_lannister"
+          },
+          {
+            "name": "Snapchat",
+            "value": "https://www.snapchat.com/add/",
+            "type": "social",
+            "username": "",
+            "icon": "ion:logo-snapchat",
+            "share": "https://www.snapchat.com/add/"
+          },
+          {
+            "name": "Email",
+            "value": "mailto:",
+            "type": "email",
+            "username": "",
+            "icon": "ion:mail",
+            "share": "mailto:?subject=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/jaime_lannister"
+          },
+          {
+            "name": "Pinterest",
+            "value": "https://www.pinterest.com/",
+            "type": "social",
+            "username": "",
+            "icon": "ion:logo-pinterest",
+            "share": "https://www.pinterest.com/pin/create/button/?url=https://biolinks1.netlify.app/users/jaime_lannister&media=&description=Hola+te+comparto+este+link+:+https://biolinks1.netlify.app/users/jaime_lannister"
+          }
+      ]
+    },
+    {
+      "id": 3,
+      "type": 2,
+      "name": "gallery", "icon":"mdi:view-gallery-outline",
+      "image": "url(https://orpot.net/biolinks_api/jaime/1.jpg)",
+      "title": "Galería",
+      "message": "Comparte mi galería",
+      "links": [],
+      "link": "https://biolinks1.netlify.app/users/jaime_lannister",
+      "images": [
+        {
+          "thumb": "https://orpot.net/biolinks_api/jaime/1.jpg",
+          "big": "https://orpot.net/biolinks_api/jaime/1.jpg",
+          "title": "The Kingslayer"
+        },
+        {
+          "thumb": "https://orpot.net/biolinks_api/jaime/2.jpg",
+          "big": "https://orpot.net/biolinks_api/jaime/2.jpg",
+          "title": "The Kingslayer"
+        },
+        {
+          "thumb": "https://orpot.net/biolinks_api/jaime/3.jpg",
+          "big": "https://orpot.net/biolinks_api/jaime/3.jpg",
+          "title": "The Kingslayer"
+        },
+        {
+          "thumb": "https://orpot.net/biolinks_api/jaime/4.jpg",
+          "big": "https://orpot.net/biolinks_api/jaime/4.jpg",
+          "title": "The Kingslayer"
+        },
+        {
+          "thumb": "https://orpot.net/biolinks_api/jaime/5.jpg",
+          "big": "https://orpot.net/biolinks_api/jaime/5.jpg",
+          "title": "The Kingslayer"
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "name": "spotify", "icon":"hugeicons:spotify",
+      "id": 4,
+      "title": "Escucha mi música",
+      "image": "url(https://orpot.net/biolinks_api/jaime/3.jpg)",
+      "message": "Este es un nuevo tema de mi álbum",
+      "link": "https://open.spotify.com/embed/track/2kd0T6zgABT8P0s2h9QU5O?utm_source=generato",
+      "embed": "https://open.spotify.com/embed/track/2kd0T6zgABT8P0s2h9QU5O?utm_source=generator"
+    },
+    {
+      "type": 2,
+      "name": "youtube", "icon":"mingcute:youtube-line",
+      "id": 5,
+      "title": "(GoT) Jaime Lannister || Un Hombre de Honor",
+      "message": "(GoT) Jaime Lannister || Un Hombre de Honor",
+      "image": "url(https://i.ytimg.com/vi/FStL8R_ENVE/sddefault.jpg)",
+      "link": "https://www.youtube.com/watch?v=FStL8R_ENVE",
+      "embed": "https://www.youtube.com/embed/FStL8R_ENVE?si=dZxCfzPDaUFJ91FC"
+    }
+  ],
+  "styles": {
+    "backgroundBody": "#d4af37",
+    "backgroundImage": "",
+    "backgroundHero": "url(https://orpot.net/biolinks_api/jaime/1.jpg)",
+    "backgroundProfile": "#a67c3c",
+    "backgroundProfileShadow": "rgba(0, 0, 0, 0.6)",
+    "backgroundModal": "rgba(0, 0, 0, 0.8)",
+    "backgroundModalShadow": "rgba(0, 0, 0, 0.5)",
+    "fontTitle": "'Garamond', serif",
+    "fontText": "'Garamond', serif",
+    "buttonFontFamily": "'Garamond', serif",
+    "buttonFontColor": "#ffffff",
+    "buttonFontSize": "1rem",
+    "buttonFontColorHover": "#ffd700",
+    "buttonBackground": "#3b3b3b",
+    "buttonBackgroundHover": "#2c2c2c",
+    "buttonBorder": "2px solid #d4af37",
+    "buttonBorderRadius": "6px",
+    "buttonStyles": "app--button app--button-link app--button-soft-shadow app--button-rounded"
+  }
+}
+,
+{
+  "id": 6,
+  "slug": "tyrion_lannister",
+  "profile": {
+    "username": "tyrion_lannister",
+    "firstname": "Tyrion",
+    "lastname": "Lannister",
+    "card":"https://orpot.net/biolinks_api/got.png",
+    "image": {
+      "big": "https://thronesapi.com/assets/images/tyrion-lannister.jpg",
+      "thumb": "https://thronesapi.com/assets/images/tyrion-lannister.jpg"
+    },
+    "about": {
+      "title": "Tyrion Lannister",
+      "subtitle": "The Imp",
+      "text": "<p>Tyrion Lannister, often called The Imp or The Dwarf, is the youngest son of Tywin Lannister and the brother of Cersei and Jaime Lannister. Known for his sharp wit and intelligence, he has played a key role in the politics and power struggles of Westeros.</p>"
+    },
+    "socialLinks": {
+      "title": "Sigueme",
+      "subtitle": "Sigueme en mis redes sociales",
+      "link": "https://biolinks1.netlify.app/users/tyrion_lannister",
+      "links": [
+        {
+          "name": "Facebook",
+          "value": "https://www.facebook.com/tyrionfans/?locale=es_LA",
+          "type": "social",
+          "username": "tyrion_lannister",
+          "icon": "ion:logo-facebook"
+        },
+        {
+          "name": "Twitter",
+          "value": "https://x.com/got_tyrion?lang=es",
+          "type": "social",
+          "username": "tyrion_lannister",
+          "icon": "ion:logo-twitter"
+        },
+        {
+          "name": "LinkedIn",
+          "value": "https://linkedin.com",
+          "type": "social",
+          "username": "tyrion_lannister",
+          "icon": "ion:logo-linkedin"
+        },
+        {
+          "name": "Instagram",
+          "value": "https://www.instagram.com/peterdinklage/?hl=es",
+          "type": "social",
+          "username": "tyrion_lannister",
+          "icon": "ion:logo-instagram"
+        },
+        {
+          "name": "Website",
+          "value": "https://gameofthrones.fandom.com/wiki/Tyrion_Lannister",
+          "type": "url",
+          "username": "tyrion_lannister",
+          "icon": "ion:logo-website"
+        }
+      ]
+    }
+  },
+  "widgets": [
+    {
+      "id": 1,
+      "type": 1,
+       "name": "share", "icon":"material-symbols-light:share-outline",
+      "image": "",
+      "title": "Comparte este Link",
+      "message": "",
+      "link": "",
+      "links": [
+        {
+          "name": "WhatsApp",
+          "value": "123456789",
+          "type": "whatsapp",
+          "username": "tyrion_lannister",
+          "icon": "ion:logo-whatsapp"
+        },
+        {
+          "name": "Email",
+          "value": "tyrion_lannister@theimp.com",
+          "type": "email",
+          "username": "tyrion_lannister",
+          "icon": "ion:logo-email"
+        },
+        {
+          "name": "Facebook",
+          "value": "https://facebook.com",
+          "type": "social",
+          "username": "tyrion_lannister",
+          "icon": "ion:logo-facebook"
+        },
+        {
+          "name": "Twitter",
+          "value": "https://twitter.com",
+          "type": "social",
+          "username": "tyrion_lannister",
+          "icon": "ion:logo-twitter"
+        },
+        {
+          "name": "LinkedIn",
+          "value": "https://linkedin.com",
+          "type": "social",
+          "username": "tyrion_lannister",
+          "icon": "ion:logo-linkedin"
+        },
+        {
+          "name": "Instagram",
+          "value": "https://instagram.com",
+          "type": "social",
+          "username": "tyrion_lannister",
+          "icon": "ion:logo-instagram"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": 2,
+      "name": "gallery", "icon":"mdi:view-gallery-outline",
+      "image": "url(https://orpot.net/biolinks_api/tyrion/1.jpg)",
+      "title": "Galería",
+      "message": "Comparte mi galería",
+      "links": [],
+      "link": "",
+      "images": [
+        {
+          "thumb": "https://orpot.net/biolinks_api/tyrion/1.jpg",
+          "big": "https://orpot.net/biolinks_api/tyrion/1.jpg",
+          "title": "The Imp"
+        },
+        {
+          "thumb": "https://orpot.net/biolinks_api/tyrion/2.jpg",
+          "big": "https://orpot.net/biolinks_api/tyrion/2.jpg",
+          "title": "The Imp"
+        },
+        {
+          "thumb": "https://orpot.net/biolinks_api/tyrion/3.jpg",
+          "big": "https://orpot.net/biolinks_api/tyrion/3.jpg",
+          "title": "The Imp"
+        },
+        {
+          "thumb": "https://orpot.net/biolinks_api/tyrion/4.jpg",
+          "big": "https://orpot.net/biolinks_api/tyrion/4.jpg",
+          "title": "The Imp"
+        },
+        {
+          "thumb": "https://orpot.net/biolinks_api/tyrion/5.jpg",
+          "big": "https://orpot.net/biolinks_api/tyrion/5.jpg",
+          "title": "The Imp"
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "name": "spotify", "icon":"hugeicons:spotify",
+      "id": 4,
+      "title": "Escucha mi música",
+      "image": "url(https://orpot.net/biolinks_api/tyrion/3.jpg)",
+      "message": "Este es un nuevo tema de mi álbum",
+      "link": "https://open.spotify.com/embed/track/2kd0T6zgABT8P0s2h9QU5O?utm_source=generato",
+      "embed": "https://open.spotify.com/embed/track/2kd0T6zgABT8P0s2h9QU5O?utm_source=generator"
+    },
+    {
+      "type": 2,
+      "name": "youtube", "icon":"mingcute:youtube-line",
+      "id": 5,
+      "title": "Best of Tyrion Lannister",
+       "image": "url(https://i.ytimg.com/vi/8EDwr1pFr_w/sddefault.jpg)",
+      "message": "Best of Tyrion Lannister",
+      "link": "https://www.youtube.com/watch?v=8EDwr1pFr_w",
+      "embed": "https://www.youtube.com/embed/8EDwr1pFr_w?si=bIzIphxaWBqzRk6g"
+    }
+  ],
+  "styles": {
+    "backgroundBody": "#5b3a29",
+    "backgroundImage": "https://orpot.net/biolinks_api/tyrion/4.jpg",
+    "backgroundHero": "url(https://orpot.net/biolinks_api/tyrion/1.jpg)",
+    "backgroundProfile": "#3b2a1e",
+    "backgroundProfileShadow": "rgba(0, 0, 0, 0.7)",
+    "backgroundModal": "rgba(0, 0, 0, 0.75)",
+    "backgroundModalShadow": "rgba(0, 0, 0, 0.6)",
+    "fontTitle": "'Oswald', sans-serif",
+    "fontText": "'Oswald', sans-serif",
+    "buttonFontFamily": "'Oswald', sans-serif",
+    "buttonFontColor": "#ffffff",
+    "buttonFontSize": "1rem",
+    "buttonFontColorHover": "#ffd700",
+    "buttonBackground": "#4a2c1f",
+    "buttonBackgroundHover": "#3d1e15",
+    "buttonBorder": "2px solid #c5a14c",
+    "buttonBorderRadius": "8px",
+    "buttonStyles": "app--button app--button-link app--button-soft-shadow app--button-rounded"
+  }
+}
+
+]

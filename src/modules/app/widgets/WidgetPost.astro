@@ -1,0 +1,48 @@
+---
+import WidgetButtonShareLink from '@modules/app/widgets/buttons/WidgetButtonShareLink.astro';
+
+import WidgetButtonsRegister from '@modules/app/widgets/buttons/WidgetButtonsRegister.astro';
+
+const { widget } = Astro.props;
+const embed = widget.embed;
+const link = widget.link;
+const content = widget.content;
+---
+<section class="app--widget app--widget-post">
+   <div class="app--widget-container">
+    <Fragment set:html={content}>
+  </div>
+</section>
+
+<WidgetButtonShareLink widget={widget} />
+<WidgetButtonsRegister  />
+ 
+<style is:global>
+.app--widget-post{  }
+.app--widget-post .app--widget-container { 
+  min-height: 160px!important;  
+  height: 160px!important;  
+  overflow-y: auto;
+  scroll-behavior: smooth;  
+  border: 1px solid #FFF;
+  padding: 0.5rem;
+  color: #FFF;
+  font-size: normal;
+   
+}
+
+ .app--widget-post .app--widget-container::-webkit-scrollbar {
+  width: 8px;
+}
+
+.app--widget-post .app--widget-container::-webkit-scrollbar-thumb {
+  background-color: #ccc; 
+  border-radius: 4px;
+}
+
+.app--widget-post .app--widget-container::-webkit-scrollbar-track {
+  background-color: #f5f5f5;
+}
+
+  
+</style>

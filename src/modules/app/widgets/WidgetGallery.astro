@@ -1,0 +1,57 @@
+---
+import ButtonsShare from '@components/ui/buttons/ButtonsShare.astro'
+import WidgetButtonsRegister from '@modules/app/widgets/buttons/WidgetButtonsRegister.astro';
+
+const { user ,widget } = Astro.props;
+const widgets = widget.images;
+const hasItemsLinks = Array.isArray(widgets) && widgets.length > 0;
+
+console.log(user)
+ 
+---
+<section class="app--widget app--widget-gallery">
+ 	<div class="app--widget-container">
+		  	{hasItemsLinks ? (
+				    widgets.map((widget) => (
+				       <div class="gallery-widget" >
+				           <img src={widget.big} alt={widget.title}class="img-fluid" loading="lazy">
+				           <p>  &nbsp; {widget.title}</p>
+				        </div>
+				      ))
+ 
+				    ) : (
+				      <p class="text-white">No se encontraron widgets</p>
+			 )}
+</div>
+
+<ButtonsShare url={widget.link} text={widget.message} />
+<WidgetButtonsRegister />
+</section>
+ 
+<style is:global>
+.app--widget-gallery{  }
+.app--widget-gallery .app--widget-container { }
+ 
+.app--widget-gallery .app--widget-container {
+  height: 400px;  
+  overflow-y: auto;
+  scroll-behavior: smooth;  
+  padding: 1rem;
+  color: #FFF;
+   
+}
+
+ 
+.app--widget-gallery .app--widget-container::-webkit-scrollbar {
+  width: 8px;
+}
+
+.app--widget-gallery .app--widget-container::-webkit-scrollbar-thumb {
+  background-color: #ccc; 
+  border-radius: 4px;
+}
+
+.app--widget-gallery .app--widget-container::-webkit-scrollbar-track {
+  background-color: #f5f5f5;
+}
+</style>

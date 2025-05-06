@@ -1,0 +1,56 @@
+---
+const { widget } = Astro.props;
+ 
+---
+<section class="app--widget app--widget-share-link">
+  
+  <div class="app--button-share-link">
+    <p class="link-text">Leer Más  <a href={widget.link} target="_blank">{widget.link}</a></p>
+  </div>
+</section>
+
+
+<style>
+ .app--button-share-link {
+    padding: 1rem 0;
+    color: white;
+    text-decoration: none; 
+    border: 1px solid #CCC;
+    width: 100%;
+}
+ 
+
+ .app--widget-title{
+    color: #FFF;
+ }
+.app--button-share-link .link-text {
+  font-family: var(--fn-text);
+ 
+  width: 98%;
+  overflow: hidden; 
+  text-overflow: ellipsis;  
+  white-space: nowrap;  
+}
+
+.app--button-share-link .link-text a {
+  font-size: 1rem;
+  color: white;
+  display: block;
+  text-align: center;
+  padding: 0.5rem;
+  font-family: var(--fn-text);
+  text-decoration: none;  
+  width: 100%;  
+  overflow: hidden;  
+  white-space: nowrap;  
+  text-overflow: ellipsis;  
+}
+
+.app--button-share-link  a:hover{
+  color: var(--clr-2);
+}
+
+ 
+
+
+</style>

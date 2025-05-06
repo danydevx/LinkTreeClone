@@ -1,0 +1,223 @@
+---
+import Widget from '@modules/app/Widget.astro';
+ 
+const { user } = Astro.props;
+
+type Widget = {
+  
+  id: number;
+  name: string;
+ 
+};
+
+const widgets: Widget[] = user.widgets ||  [];
+
+
+
+
+const hasWidgets = widgets.length > 0;
+
+ 
+ 
+ 
+
+ 
+const styleBackgroundBody = user.styles.backgroundBody || '#000000';
+const styleBackgroundImage = user.styles.backgroundHero || 'app-bg';
+const styleBackgroundHero = user.styles.backgroundHero || 'app-bg-hero';
+const styleBackgroundModal = user.styles.backgroundModal || 'app-bg-modal';
+const styleBackgroundProfile = user.styles.backgroundProfile || '#000';
+const styleBackgroundProfileShadow= user.styles.backgroundProfileShadow || '';
+const styleFontTitle = user.styles.fontTitle || 'app-fn-title';
+const styleFontText = user.styles.fontText || '--app-fn-text';
+const styleButtonFontFamily = user.styles.buttonFont || '--app-button-fn-family';
+const styleButtonFontColor = user.styles.buttonFontColor || '--app-button-fn-color';
+const styleButtonFontColorHover = user.styles.buttonFontColorHover || '--app-button-fn-color-hover';
+const styleButtonFontSize = user.styles.buttonFontSize || '--app-button-fn-size';
+const styleButtonBackground = user.styles.buttonBackground || '--app-button-background';
+const styleButtonBackgroundHover = user.styles.buttonBackgroundHover || '--app-button-background-hover';
+const styleButtonBorder =   user.styles.buttonBorder || '--app-button-border';
+const styleButtonBorderRadius =   user.styles.buttonBorderRadius || '--app-button-radius';
+ 
+
+
+
+ 
+const socialLinks: socialLinks[] = user.profile.socialLinks.links ||  [];
+const hasSocialLinks = socialLinks.length > 0;
+---
+
+<div class="app--profile">
+
+  <div class="app--profile-hero">
+    
+    <figure class="app--profile-pic">
+      <img src={user.profile.image.big} alt={user.profile.profilename} />
+    </figure>
+  </div>
+  <h3 class="app--profile-title">
+    {user.profile.firstname} {user.profile.lastname}
+  </h3>
+  <p class="app--profile-username">@{user.profile.username}</p>
+
+   <ul class="app--profile-social-links">
+    {hasSocialLinks && ( 
+      socialLinks.map((item) => (
+      <li><a href={item.value} target="_blank"> <iconify-icon icon={item.icon} class="iconify"></iconify-icon></a></li></li>
+      ))
+    )
+    
+    }
+  </ul>
+ 
+  <div class="app--profile-body">
+    {hasWidgets ? (
+      widgets.map((item) => (
+          <Widget widget={item} user={user} />
+      ))
+    ) : (
+      <p class="text-white">No se encontraron widgets</p>
+    )}
+  </div>
+  
+</div>
+
+
+<div class="app--button-back">
+    <a href="/" class="button-back">
+      <span><iconify-icon icon="ri:arrow-go-back-line"></iconify-icon></span>
+    </a>
+  </div>
+
+<style is:global define:vars={{styleBackgroundBody, styleBackgroundImage, styleBackgroundProfile, styleButtonBackground, styleButtonBackgroundHover, styleButtonFontFamily, styleFontTitle, styleFontText, styleButtonBorderRadius,styleBackgroundProfileShadow }}>
+ 
+  .app--profile {
+    text-align: center;
+    background: var(--styleBackgroundProfile)!important;
+    box-shadow: var(--styleBackgroundProfileShadow)!important;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+  }
+
+  .app--profile .app--profile-hero {
+    display: block;
+    padding: 1rem 1rem;
+    background: var(--styleBackgroundImage);
+    background-size: cover;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+  }
+
+  .app--profile .app--profile-title {
+    font-size: var(--fs-3);
+    font-family: var(--styleFontTitle);
+     margin:0.5rem 0 0  0px;
+
+  }
+
+  .app--profile .app--profile-title a {
+    margin: 0.5rem 0;
+    color: var(--clr-6);
+
+  }
+
+  .app--profile .app--profile-social-links{
+    margin:0.5rem;
+    padding: 0;
+    list-style: none;
+  }
+  .app--profile .app--profile-social-links li{
+    display: inline-block;
+    
+  }
+  .app--profile .app--profile-social-links li a{
+    display: block;
+    color: #FFF;
+    font-size: 1.8rem;
+    margin: 0 0.4rem;
+  }
+  .app--profile .app--profile-social-links li a:hover{  
+    color: #FFF;
+    opacity: 0.5;
+  }
+
+
+  .app--profile .app--profile-username {
+    color: white;
+    margin: 0px;
+    font-family: var(--styleFontText);
+  }
+
+  .app--profile .app--profile-pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: auto;
+    position: relative;
+  }
+
+  .app--profile .app--profile-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+  }
+
+  .app--profile .app--profile-pic:hover img {
+    transform: scale(1.05);
+  }
+
+  .app--profile .app--profile-pic::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .app--profile .app--profile-pic:hover::before {
+    opacity: 1;
+  }
+
+  .app--profile .app--profile-body {
+    padding:0.5rem 1rem;
+  }
+
+   .app--button-back {
+    width: 100%;
+    display: block;
+    margin: 0px;
+   }
+  .app--button-back  .button-back {
+    color: #FFF;
+    background: rgba(0,0,0,.85);
+    margin:0.5rem auto;
+    padding:0.5rem;
+    width: 80px;
+    height: 80px;
+    line-height: 35px;
+    color: #FFF;
+    border: 1px solid #FFF;
+    border-radius: 40px;
+    font-size: 1.3rem;
+    
+    text-transform: uppercase;
+    
+  }
+   .app--button-back  .button-back:hover{
+    background-color: #FFD800;
+    color: #000;
+  }
+</style>

@@ -1,0 +1,38 @@
+---
+import { Image } from 'astro:assets';
+const logoApp = '../assets/images/logoApp.png';
+import Layout from '@layouts/Layout.astro';
+import UsersList from '@modules/users/UsersList.astro';
+import dataUsers from '@data/users.json';
+---
+
+<Layout>
+ <main  class="page-main">
+		<section class="section">
+			<div class="gr-container ">
+				<div class="gr-col-12 text-center">
+					<div class="block">
+						<div class="logoApp"></div>
+						 <h2 class="page-title ">
+							Conoce mas de tu personaje, deportista o artista favorito.
+						</h2>
+					</div>
+				</div>
+ 
+			</div>
+		</section>
+		<section class="section ">
+			  <div class="gr-container ">
+					 
+					<div class="gr-row">
+		     			<UsersList users={dataUsers}  />
+		     		</div>
+				</div>
+		</section>
+		  <footer class="footer">
+       		&copy; <a href="https://orpot.net" class="copy" target="_blank">Biolinks 2024</a>  
+    		</footer>
+	</main>
+</Layout>
+
+ 

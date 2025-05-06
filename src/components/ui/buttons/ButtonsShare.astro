@@ -1,0 +1,103 @@
+---
+const { url, text } = Astro.props;
+
+const links = [
+  { id: 1, title: "Copy link", value: "copy", icon: "ph:copy", colorButton: "#6c757d" },
+  { id: 2, title: "Twitter", value: `https://x.com/intent/tweet?text=${encodeURIComponent(text)}%20-%20${encodeURIComponent(url)}`, icon: "mingcute:social-x-line", colorButton: "#1da1f2" },
+  { id: 3, title: "Facebook", value: `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`, icon: "typcn:social-facebook-circular", colorButton: "#1877f2" },
+  { id: 4, title: "WhatsApp", value: `https://wa.me/?text=${encodeURIComponent(text)}%20-%20${encodeURIComponent(url)}`, icon: "ion:social-whatsapp", colorButton: "#25d366" },
+  { id: 5, title: "LinkedIn", value: `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(url)}`, icon: "ion:social-linkedin", colorButton: "#0077b5" },
+  { id: 6, title: "Messenger", value: `https://www.messenger.com/t/?link=${encodeURIComponent(url)}`, icon: "mingcute:messenger-line", colorButton: "#0084ff" },
+  { id: 7, title: "Snapchat", value: `https://www.snapchat.com/scan?attachmentUrl=${encodeURIComponent(url)}`, icon: "ion:social-snapchat", colorButton: "#fffc00" },
+  { id: 8, title: "Email", value: `mailto:?subject=${encodeURIComponent(text)}&body=Check%20out%20${encodeURIComponent(text)}%20-%20${encodeURIComponent(url)}`, icon: "streamline:send-email-solid", colorButton: "#d44638" }
+];
+
+
+
+
+---
+
+<section class="app--buttons-share">
+	<h3 class="fs-6 text-white">Comparte el link</h3>
+		<div class="button-container">
+      <ul class="buttons">
+      {links.map((link) => (
+		      <li >
+            <a href={link.value === 'copy' ? '#' : link.value}
+            class="share-link"
+    		      style={{ backgroundColor: link.colorButton }}
+    		      target={link.value === 'copy' ? undefined : '_blank'}
+    		    >
+		      <iconify-icon icon={link.icon} width="30" height="30"></iconify-icon>
+		    </a>
+      </li>
+		  ))}
+      </ul>
+		</div>
+</section>	
+ 
+
+<style>
+.app--buttons-share {
+  text-align: center;
+ 
+}
+
+.button-container {
+  display: flex;
+  flex-wrap: nowrap; 
+  gap: 10px;
+  text-align: center;
+ 
+  width: 100%;
+  overflow-x: auto;
+    padding: 0 2rem 0 0rem;
+
+}
+
+.button-container::-webkit-scrollbar {
+  height: 8px;  
+}
+
+.button-container::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.5);  
+  border-radius: 4px; 
+}
+
+.button-container {
+  scrollbar-width: thin;  
+  scrollbar-color: rgba(0, 0, 0, 0.5) transparent;  
+}
+
+.buttons {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;  
+  flex-wrap: nowrap; 
+}
+
+.buttons li {
+  padding: 0;
+  margin: 0.4rem;
+  display: inline-block;
+}
+
+.share-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+.share-link:hover {
+  opacity: 0.8;
+}
+</style>

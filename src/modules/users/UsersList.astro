@@ -1,0 +1,30 @@
+---
+ 
+/*
+import { fetch } from 'astro';
+
+const response = await fetch('/path/to/api');
+const users = await response.json();
+import UsersList from '../components/UsersList.astro';
+*/
+
+import UserCard from '@modules/users/components/UserCard.astro';
+const {
+	users
+} = Astro.props;
+
+ 
+const items  = users;
+ const hasItems = Array.isArray(items) && items.length > 0;
+
+---
+  	{hasItems  && items.map((item ) => (
+			<div class="gr-col-4">
+				  <UserCard user={item} slug={item.slug} />
+			</div>
+         ))}
+ 
+<style>
+ 
+
+</style>

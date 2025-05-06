@@ -1,0 +1,29 @@
+
+
+:root {
+ 
+	--fn-app-text: 'Montserrat',sans-serif;
+	--fn-app-button: 'Montserrat',sans-serif;
+	--app-bg: '#CC000C';
+	--app-bg-hero: '#CCC';
+	--app-bg-modal: '#FFF';
+	--app-bg-profile: '#FF00F';
+	--app-fn-title: 'Montserrat',sans-serif;
+	--app-fn-text: 'Montserrat',sans-serif;
+	--app-button-fn-family: 'Montserrat',sans-serif;
+	--app-button-fn-size: '1rem';
+	--app-button-fn-color: '#CCC';
+	--app-button-fn-color-hover: '#000';
+	--app-button-background:  '#000';
+	--app-button-background-hover: '#FFF';
+	--app-button-border: '1px solid #000';
+	--app-button-radius: '0px';
+	--app-button-styles: 'app-button';
+ 
+ 
+}
+
+
+
+@import url('./app-buttons.css');
+ 

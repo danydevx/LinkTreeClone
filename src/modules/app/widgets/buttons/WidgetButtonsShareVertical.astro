@@ -1,0 +1,134 @@
+---
+const { url,title, message } = Astro.props;
+
+const links = [
+  { id: 1, title: "Copiar link", value: "copy", icon: "ph:copy", colorButton: "#6c757d" },
+  { id: 2, title: "Twitter", value: `https://x.com/intent/tweet?message=${encodeURIComponent(message)}%20-%20${encodeURIComponent(url)}`, icon: "mingcute:social-x-line", colorButton: "#1da1f2" },
+  { id: 3, title: "Facebook", value: `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`, icon: "typcn:social-facebook-circular", colorButton: "#1877f2" },
+  { id: 4, title: "WhatsApp", value: `https://wa.me/?message=${encodeURIComponent(message)}%20-%20${encodeURIComponent(url)}`, icon: "ion:social-whatsapp", colorButton: "#25d366" },
+  { id: 5, title: "LinkedIn", value: `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(url)}`, icon: "ion:social-linkedin", colorButton: "#0077b5" },
+  { id: 6, title: "Messenger", value: `https://www.messenger.com/t/?link=${encodeURIComponent(url)}`, icon: "mingcute:messenger-line", colorButton: "#0084ff" },
+  { id: 7, title: "Snapchat", value: `https://www.snapchat.com/scan?attachmentUrl=${encodeURIComponent(url)}`, icon: "ion:social-snapchat", colorButton: "#fffc00" },
+  { id: 8, title: "Email", value: `mailto:?subject=${encodeURIComponent(message)}&body=Check%20out%20${encodeURIComponent(message)}%20-%20${encodeURIComponent(url)}`, icon: "streamline:send-email-solid", colorButton: "#d44638" }
+];
+
+ 
+
+---
+<div class="app--buttons-share-vertical">
+    {links.map((link) => (
+		    <div  class="button-share-vertical">
+            <div class="button-left">
+               <iconify-icon icon={link.icon} class="iconify"></iconify-icon>
+            </div>
+            <div class="button-center">
+             {link.value == 'copy' ? (
+                    <button
+                      type="button"
+                      title={link.title}
+                      class="copyText share-link"
+                      data-text={url}
+          
+                       
+                    >
+                     <span> {link.title} </span>
+                    </button>
+                  ) : (
+                    <a 
+                      href={link.value} 
+                      title={link.title} 
+                      target="_blank"
+                      class="share-link"
+                    >
+                     <span>Compartir  {link.title}</span>
+                    </a>
+                  )}
+             
+            </div>
+            <div class="button-right">
+                <iconify-icon icon="weui:arrow-filled" class="iconify"></iconify-icon>
+            </div>
+         </div>
+
+		  ))}
+</div>
+<style>
+.app--buttons-share-vertical {
+  list-style: none;  
+  margin: 0px;
+  padding: 0px;
+}
+
+ .app--buttons-share-vertical .button-share-vertical {
+    display: grid;
+    grid-template-columns: 1fr 10fr 1fr;
+    align-items: center;
+    gap:0px;  
+    background: rgba(0,0,0,.40);
+    margin: 0.6rem 0;
+    padding: 0.4rem;
+    border: 1px solid #FFF;
+    border-radius: 6px;
+  }
+ 
+  .app--buttons-share-vertical .iconify{ font-size: 2rem;  color: #FFF; }
+  .app--buttons-share-vertical .iconify:hover{ font-size: 2rem;  color: #CCC; }
+
+ .app--buttons-share-vertical .button-share-vertical:hover{
+      background: rgba(255,255,255,.20);
+ }
+
+  .app--buttons-share-vertical .button-share-vertical:hover .iconify{
+   
+  }
+  .app--buttons-share-vertical .button-share-vertical .button-left, .button-center, .button-right {
+      display: flex;
+      align-items: center;
+      justify-content: center; 
+  }
+  .app--buttons-share-vertical .button-share-vertical .button-left .iconify{ font-size: 2rem; }
+
+ .app--buttons-share-vertical .button-share-vertical .button-center  .share-link{
+      display: block;
+      width: 100%;
+      font-size: 1rem;
+       color: #FFF;
+       background-color: transparent!important;
+       border: none;
+       font-family: var(--fn-button);
+       text-align: left;
+ }
+  .app--buttons-share-vertical .button-share-vertical .button-center .message {
+     
+  }
+  .app--buttons-share-vertical .button-share-vertical .button-right {}
+
+
+</style>
+
+<script>
+ 
+const buttons = document.querySelectorAll('button.copyText');
+
+ 
+buttons.forEach((button) => {
+  button.addEventListener('click', () => {
+ 
+    let text = button.getAttribute('data-text');
+
+ 
+    if (text) {
+ 
+      navigator.clipboard.writeText(text)
+        .then(() => {
+          alert('¡Se ha copiado el link');
+        })
+        .catch(err => {
+          console.error('Fallo al copiar: ', err);
+        });
+    } else {
+      console.error('No hay texto');
+    }
+  });
+});
+</script>

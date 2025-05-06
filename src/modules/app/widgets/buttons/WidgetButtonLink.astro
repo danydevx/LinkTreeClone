@@ -1,0 +1,73 @@
+---
+const { widget, styles } = Astro.props;
+const title = widget.title || "";
+const link = widget.link || "";
+const icon = widget.icon || "";
+const styleButtonStyles = styles.buttonStyles  || "";
+const styleBackgroundBody = styles.backgroundBody || "";
+const styleBackgroundImage = styles.backgroundImage || "";
+const styleBackgroundHero = styles.backgroundHero || "";
+const styleBackgroundModal = styles.backgroundModal || "";
+const styleBackgroundProfile = styles.backgroundProfile || "";
+const styleFontTitle = styles.fontTitle || "";
+const styleFontText = styles.fontText || "";
+const styleButtonFontFamily =styles.buttonFontFamily || "";
+const styleButtonFontColor = styles.buttonFontColor || "";
+const styleButtonFontColorHover =styles.buttonFontColorHover || "";
+const styleButtonFontSize = styles.buttonFontSize || "";
+const styleButtonBackground = styles.buttonBackground || "";
+const styleButtonBackgroundHover = styles.buttonBackgroundHover || "";
+const styleButtonBorder =   styles.buttonBorder || "";
+const styleButtonBorderRadius =   styles.buttonBorderRadius || "";
+ 
+---
+ 
+<div class={styleButtonStyles}  @click="open = true" >
+    <div class="button-left">
+       <span class="icon"> <iconify-icon icon={icon}></iconify-icon></span>
+    </div>
+  
+    <div class="button-center">
+    <span class="button-text">{title} </span>
+    </div>
+   
+  <div class="button-right">
+    <button class="button-dots" @click="open = true">
+      <iconify-icon icon="mage:dots"></iconify-icon>
+    </button>
+  </div>
+</div>
+ 
+<style is:global define:vars={{ styleButtonFontFamily,styleButtonBackground, styleButtonBorder,styleButtonBackgroundHover,styleButtonFontColorHover,styleButtonFontColor,styleButtonFontSize}}>
+ 
+  .app--button-link  { 
+    background: var(--styleButtonBackground)!important; 
+    border: var(--styleButtonBorder)!important; 
+  
+   }
+
+   .app--button-link  .button-left .icon{
+      font-size: 2rem;
+      display: block;
+      padding: 0.2rem 1rem;
+      font-weight: bolder;
+
+   }
+   .app--button-link:hover{
+     
+     background-color: var(--styleButtonBackgroundHover)!important; 
+   }
+    .app--button-link .button-center  { 
+    font-family: var(--styleButtonFontFamily)!important;   
+   
+    font-size: var(--styleButtonFontSize)!important; 
+  }
+
+  .app--button-link .button-center span { 
+       color:var(--styleButtonFontColor)!important; 
+       font-family: var(--styleButtonFontFamily)!important; 
+ 
+  }
+
+
+</style>
